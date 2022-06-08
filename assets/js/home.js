@@ -11,3 +11,8 @@ $('.line .input').blur(function(){
 
 // validate form
 $("#contact-form").validate();
+
+// display success popup
+if (window.location.href.indexOf("contato-sucesso") > -1) {
+    $.fancybox.open($("#contato-sucesso"));
+};

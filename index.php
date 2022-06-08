@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
+	<!-- head -->	
 	<?php include('includes/head.php'); ?>
 
+	<!-- body -->
 	<body class="home">
 		<div class="overflow-hidden">
 
@@ -11,11 +13,15 @@
 			<?php include('includes/fs-menu.php'); ?>
 
 			<!-- banner -->
-			<section id="banner" class="relative overflow-hidden md:bg-fixed md:bg-center md:bg-no-repeat md:bg-cover md:bg-[url('../../assets/img/banner.jpg')]">
+			<section id="banner" class="relative overflow-hidden">
 
-				<div class="absolute top-0 left-0 hidden w-3/4 h-full md:block xl:w-2/3 gradient z-1"></div>
+				<div class="absolute top-0 left-0 hidden w-3/4 h-full md:block xl:w-2/3 gradient z-4"></div>
 
-				<div class="block md:hidden w-full h-[60vh] bg-center bg-no-repeat bg-cover bg-[url('../../assets/img/banner.jpg')] wow fadeIn"></div>
+				<div class="absolute top-0 left-0 w-full h-full bg-blue-dark z-2 mix-blend-hue"></div>
+				
+				<video autoplay playsinline muted loop class="md:absolute md:top-0 md:left-0 object-cover w-full md:h-full h-[70vh] wow fadeIn">
+					<source src="assets/videos/banner.mp4">
+				</video>
 
 				<div class="relative container-wrapper z-9">
 
@@ -25,7 +31,7 @@
 					<div class="relative flex items-center justify-start md:h-screen z-9 md:max-w-[60%] xl:max-w-[40%] flex-wrap -mt-20 bg-gray-100 md:bg-transparent md:mt-0">
 						<div class="px-10 pt-10 pb-4 md:p-0">
 
-							<h1 class="font-bold uppercase text-bigger text-blue-light wow fadeIn">
+							<h1 class="font-bold uppercase text-biggest text-blue-light wow fadeIn">
 								<span class="text-blue-dark">Convertendo</span><br class="hidden md:block" />
 								desafios <br class="hidden md:block" />
 								em valor!
@@ -46,31 +52,31 @@
 
 						<li>
 							<a href="https://api.whatsapp.com/send?phone=5547996561115" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-								<img src="assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-gray-400 group-hover:text-blue-dark transition-colors duration-300">
+								<img src="assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
 						</li>
 						
 						<li>
 							<a href="https://www.facebook.com/Conwert-Gest%C3%A3o-Empresarial-100347276020103" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-								<img src="assets/svg/facebook.svg" alt="Facebook" class="w-[60%] h-[60%] svg text-gray-400 group-hover:text-blue-dark transition-colors duration-300">
+								<img src="assets/svg/facebook.svg" alt="Facebook" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
 						</li>
 	
 						<li>
 							<a href="https://www.instagram.com/conwert.gestao/" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-								<img src="assets/svg/instagram.svg" alt="Instagram" class="w-[60%] h-[60%] svg text-gray-400 group-hover:text-blue-dark transition-colors duration-300">
+								<img src="assets/svg/instagram.svg" alt="Instagram" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
 						</li>
 	
 						<li>
 							<a href="https://www.linkedin.com/company/conwert-gest%C3%A3o-empresarial/" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-								<img src="assets/svg/linkedin.svg" alt="Linkedin" class="w-[60%] h-[60%] svg text-gray-400 group-hover:text-blue-dark transition-colors duration-300">
+								<img src="assets/svg/linkedin.svg" alt="Linkedin" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
 						</li>
 	
 						<li>
 							<a href="https://www.youtube.com/channel/UCln1EJO855OPfw--_EGgamg" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-								<img src="assets/svg/youtube.svg" alt="Youtube" class="w-[60%] h-[60%] svg text-gray-400 group-hover:text-blue-dark transition-colors duration-300">
+								<img src="assets/svg/youtube.svg" alt="Youtube" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
 						</li>
 
@@ -100,11 +106,11 @@
 									A Conwert
 								</h2>
 
-								<p class="block my-6 leading-relaxed md:my-8 lg:pr-10 text-medium wow fadeInUp">
+								<p class="block my-6 leading-relaxed md:my-8 lg:pr-24 text-medium wow fadeInUp">
 									Somos um time especializado em enfrentar os desafios empresariais brasileiros, com centenas de projetos bem-sucedidos e <b>mais de 15 anos de experiência.</b>
 								</p>
 
-								<p class="block mb-6 font-semibold leading-normal xl:leading-snug md:mb-8 lg:pr-20 text-big wow fadeInUp">
+								<p class="block mb-6 font-semibold leading-normal xl:leading-snug md:mb-8 lg:pr-32 text-big wow fadeInUp">
 									Buscamos incansavelmente medidas de gestão que propiciem a <span class="font-bold text-blue-light">ascensão de empresas</span> nos seus momentos mais adversos.
 								</p>
 
@@ -288,26 +294,32 @@
 						</div>
 
 						<div class="w-full px-4 lg:w-1/2">
-							<form action="" id="contact-form" method="get" action="">
+							<form action="https://formsubmit.co/conwert@conwert.com.br" method="post" id="contact-form">
+
+								<input type="hidden" name="_next" value="https://www.conwert.com.br/_temp/#contato-sucesso">
+								<input type="hidden" name="_subject" value="Conwert - Formulário de contato">
+								<input type="hidden" name="_captcha" value="false">
+								<input type="text" name="_honey" style="display: none">
+								<input type="hidden" name="_template" value="box">
 
 								<div class="line wow fadeInUp">
 									<label for="empresa" class="text-medium label">Empresa</label>
-									<input type="text" name="empresa" id="empresa" class="text-medium input">
+									<input type="text" name="Empresa" id="empresa" class="text-medium input">
 								</div>
 
 								<div class="line wow fadeInUp">
 									<label for="nome" class="text-medium label">Nome completo *</label>
-									<input type="text" name="nome" id="nome" class="text-medium input" required>
+									<input type="text" name="Nome" id="nome" class="text-medium input" required>
 								</div>
 
 								<div class="line wow fadeInUp">
 									<label for="email" class="text-medium label">Email *</label>
-									<input type="email" name="email" id="email" class="text-medium input" required>
+									<input type="email" name="Email" id="email" class="text-medium input" required>
 								</div>
 
 								<div class="line active wow fadeInUp">
 									<label for="solucao" class="text-medium label">Solução *</label>
-									<select name="solucao" id="solucao" class="text-medium input select" required>
+									<select name="Solução" id="solucao" class="text-medium input select" required>
 										<option value="" selected disabled>Selecione uma</option>
 										<option value="Diagnóstico empresarial">Diagnóstico empresarial</option>
 										<option value="Gestão de reestruturação">Gestão de reestruturação</option>
@@ -321,11 +333,11 @@
 
 								<div class="line wow fadeInUp">
 									<label for="mensagem" class="text-medium label">Mensagem *</label>
-									<textarea name="mensagem" id="mensagem" class="text-medium input textarea" required></textarea>
+									<textarea name="Mensagem" id="mensagem" class="text-medium input textarea" required></textarea>
 								</div>
 
 								<div class="!mb-0 line wow fadeInUp">
-									<button type="submit" form="contact-form" value="Enviar" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-colors duration-300 bg-blue-dark sm:px-8 sm:py-4 text-medium hover:bg-blue-light">
+									<button type="submit" id="submit-form" form="contact-form" value="Enviar" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-colors duration-300 bg-blue-dark sm:px-8 sm:py-4 text-medium hover:bg-blue-light">
 										Enviar
 									</button>
 								</div>
@@ -340,6 +352,7 @@
 
 			<!-- footer -->
 			<?php include('includes/footer.php'); ?>
+			<?php include('includes/popups.php'); ?>
 
 			<footer>
 				<script src="assets/js/framework.js"></script>

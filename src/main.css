@@ -22,16 +22,24 @@
     }
 
     .text-bigger {
+        @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    .text-biggest {
         @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
     }
 
 }
 
+/* global imports */
 @import 'breakpoints.css';
 @import 'reset.css';
 @import 'custom-scrollbar.css';
 @import 'hover.css';
+
+/* plugins */
 @import 'animations.css';
+@import 'fancybox.css';
 
 /* fs menu */
 @layer components {

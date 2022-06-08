@@ -42,10 +42,16 @@
             <div class="w-full px-4 pt-4 md:w-1/3 xl:w-1/4">
 
                 <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mb-5 text-medium">
-                    Redes sociais
+                    Conecte-se
                 </p>
 
                 <ul class="flex gap-x-2">
+
+                    <li>
+                        <a href="https://api.whatsapp.com/send?phone=5547996561115" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+                            <img src="assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+                        </a>
+                    </li>
                     
                     <li>
                         <a href="https://www.facebook.com/Conwert-Gest%C3%A3o-Empresarial-100347276020103" target="_blank" class="flex items-center justify-center w-9 h-9 group">
