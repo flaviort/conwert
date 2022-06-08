@@ -51,6 +51,12 @@
 					<ul class="absolute z-20 items-center justify-start hidden w-full md:flex bottom-5 left-4 gap-x-4">
 
 						<li>
+							<p class="inline-block pl-4 font-bold uppercase text-medium text-blue-dark">
+								Conecte-se
+							</p>
+						</li>
+
+						<li>
 							<a href="https://api.whatsapp.com/send?phone=5547996561115" target="_blank" class="flex items-center justify-center w-9 h-9 group">
 								<img src="assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-blue-dark group-hover:text-blue-light transition-colors duration-300">
 							</a>
@@ -92,10 +98,9 @@
 
 						<div class="relative flex items-center justify-center w-full px-4 py-8 lg:py-10 lg:w-1/2">
 
-							<img src="assets/img/puzzle.jpg" width="744" height="519" alt="Pessoas montando uma quebra-cabeças" class="relative block w-full lg:w-[90%] h-auto z-2 wow fadeInUp">
-
+							<img src="assets/img/puzzle.jpg" width="744" height="519" alt="Pessoas montando uma quebra-cabeças" class="relative block w-full lg:w-[90%] h-auto z-3 wow fadeInUp">
 							<div class="absolute top-0 right-0 hidden w-32 h-32 max-w-full lg:block bg-blue-dark z-1 wow fadeInUp"></div>
-							<div class="absolute bottom-0 left-0 hidden w-32 max-w-full bg-white h-52 lg:block z-3 wow fadeInUp"></div>
+							<div class="absolute bottom-0 left-0 hidden w-32 max-w-full bg-white h-52 lg:block z-2 wow fadeInUp"></div>
 							
 						</div>
 
@@ -244,7 +249,7 @@
 						Nossos clientes
 					</p>
 
-					<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6 wow fadeInUp">
+					<div class="flex flex-wrap justify-center gap-4 wow fadeInUp">
 
 						<div class="logo">
 							<img src="assets/img/clientes/blutrafos.png" alt="Blutrafos">
@@ -270,6 +275,22 @@
 							<img src="assets/img/clientes/mem.png" alt="M&M - Indústria Alimentícia LTDA">
 						</div>
 
+						<div class="logo">
+							<img src="assets/img/clientes/fetti.png" alt="Fetti">
+						</div>
+
+						<div class="logo">
+							<img src="assets/img/clientes/boniella.png" alt="Boniella">
+						</div>
+
+						<div class="logo">
+							<img src="assets/img/clientes/jn.png" alt="JN Ferramentaria - Excellence for quality">
+						</div>
+
+						<div class="logo">
+							<img src="assets/img/clientes/dray.png" alt="Dray - Artigos Esportivos">
+						</div>
+
 					</div>
 					
 				</div>
@@ -289,7 +310,8 @@
 
 							<div class="block relative z-2 w-full mb-6 bg-center bg-no-repeat bg-cover h-72 sm:h-96 lg:h-full lg:w-[90%] bg-blue-dark lg:mb-0 bg-[url('../../assets/img/connecting-dots.jpg')] wow fadeInUp"></div>
 
-							<div class="absolute left-0 z-0 hidden w-32 max-w-full bg-white -bottom-10 h-80 lg:block wow fadeInUp"></div>
+							<div class="absolute left-0 hidden w-32 h-32 max-w-full -top-10 lg:block bg-blue-dark z-1 wow fadeInUp"></div>
+							<div class="absolute z-0 hidden w-32 max-w-full bg-white right-4 -bottom-10 h-80 lg:block wow fadeInUp"></div>
 							
 						</div>
 
@@ -319,7 +341,7 @@
 
 								<div class="line active wow fadeInUp">
 									<label for="solucao" class="text-medium label">Solução *</label>
-									<select name="Solução" id="solucao" class="text-medium input select" required>
+									<select name="Solução" id="solucao" class="pr-5 appearance-none cursor-pointer text-medium input select" required>
 										<option value="" selected disabled>Selecione uma</option>
 										<option value="Diagnóstico empresarial">Diagnóstico empresarial</option>
 										<option value="Gestão de reestruturação">Gestão de reestruturação</option>
@@ -328,12 +350,12 @@
 										<option value="Captações e intermediações">Captações e intermediações</option>
 										<option value="Outras">Outras</option>
 									</select>
-									<img src="assets/svg/angle-down.svg" alt="Mais" class="svg arrow">
+									<img src="assets/svg/angle-down.svg" alt="Mais" class="absolute right-0 block w-5 h-5 text-gray-500 pointer-events-none svg top-2 z-3">
 								</div>
 
 								<div class="line wow fadeInUp">
 									<label for="mensagem" class="text-medium label">Mensagem *</label>
-									<textarea name="Mensagem" id="mensagem" class="text-medium input textarea" required></textarea>
+									<textarea name="Mensagem" id="mensagem" class="text-medium input textarea min-h-[120px] h-[120px] resize-y" required></textarea>
 								</div>
 
 								<div class="!mb-0 line wow fadeInUp">

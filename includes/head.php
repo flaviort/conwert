@@ -27,6 +27,7 @@
 	<meta property="og:image:height" content="630" />
 
 	<!-- css -->
+	<link rel="stylesheet" href="assets/css/framework.min.css">
 	<link rel="stylesheet" href="assets/css/main.css">
 	
 </head>

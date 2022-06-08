@@ -22,24 +22,20 @@
     }
 
     .text-bigger {
-        @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+        @apply text-2xl tracking-wide sm:text-3xl md:text-4xl lg:text-5xl;
     }
 
     .text-biggest {
-        @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+        @apply text-3xl tracking-wide sm:text-4xl md:text-5xl lg:text-6xl;
     }
 
 }
 
 /* global imports */
-@import 'breakpoints.css';
+/*@import 'breakpoints.css';*/
 @import 'reset.css';
 @import 'custom-scrollbar.css';
-@import 'hover.css';
-
-/* plugins */
 @import 'animations.css';
-@import 'fancybox.css';
 
 /* fs menu */
 @layer components {
@@ -94,7 +90,7 @@
 @layer components {
     #clientes .logo {
         filter: saturate(0);
-        @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100;
+        @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
     }
 }
 
@@ -123,7 +119,6 @@
     #contato form .line .input.select {
         text-indent: 1px;
         text-overflow: '';
-        @apply pr-5 appearance-none cursor-pointer;
     }
 
     input:-webkit-autofill,
@@ -131,14 +126,6 @@
     input:-webkit-autofill:focus, 
     input:-webkit-autofill:active{
         -webkit-box-shadow: 0 0 0 30px rgb(243 244 246 / var(--tw-bg-opacity)) inset !important;
-    }
-
-    #contato form .line .arrow {
-        @apply absolute right-0 block w-5 h-5 text-gray-500 pointer-events-none top-2 z-3;
-    }
-
-    #contato form .line .input.textarea {
-        @apply min-h-[150px] h-[150px] resize-y;
     }
 
     #contato form .line label.error {
