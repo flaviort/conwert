@@ -19,7 +19,7 @@
 
 				<div class="absolute top-0 left-0 w-full h-full bg-blue-dark z-2 mix-blend-hue"></div>
 				
-				<video autoplay playsinline muted loop class="md:absolute md:top-0 md:left-0 object-cover w-full md:h-full h-[70vh] wow fadeIn">
+				<video autoplay playsinline muted loop class="md:absolute md:top-0 md:left-0 object-cover w-full md:h-full h-[70vh] wow fadeIn" poster="assets/img/banner.jpg">
 					<source src="assets/videos/banner.mp4">
 				</video>
 
@@ -244,29 +244,29 @@
 						Nossos clientes
 					</p>
 
-					<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+					<div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6 wow fadeInUp">
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/blutrafos.png" alt="Blutrafos">
 						</div>
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/eqm.png" alt="Grupo EQM">
 						</div>
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/itagres.png" alt="Itagres">
 						</div>
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/vdv.png" alt="Von der Volke">
 						</div>
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/pioneira.png" alt="Pioneira">
 						</div>
 
-						<div class="logo wow fadeInUp">
+						<div class="logo">
 							<img src="assets/img/clientes/mem.png" alt="M&M - Indústria Alimentícia LTDA">
 						</div>
 
