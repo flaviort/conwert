@@ -7,35 +7,35 @@
 	</button>
 
 	<div class="relative flex items-center justify-start h-full z-1">
-		<nav class="text-2xl sm:text-3xl md:text-4xl font-bold uppercase text-blue-dark pb-[5%] pl-[10vw]">
+		<nav class="text-2xl sm:text-3xl md:text-4xl font-bold uppercase text-blue-dark pb-[5%] pl-[10vw] menu">
 			<ul>
 
-				<li class="block py-3 transition-all duration-700 translate-y-10 opacity-0 delay-[.2s]">
-					<a href="#banner" class="transition-colors duration-300 sliding-link hover:text-blue-light">
+				<li class="delay-[.2s]">
+					<a href="#banner" class="sliding-link">
 						Início
 					</a>
 				</li>
 				
-				<li class="block py-3 opacity-0 transition-all translate-y-10 duration-700 delay-[.3s]">
-					<a href="#sobre-nos" class="transition-colors duration-300 sliding-link hover:text-blue-light">
+				<li class="delay-[.3s]">
+					<a href="#sobre-nos" class="sliding-link">
 						Sobre nós
 					</a>
 				</li>
 
-				<li class="block py-3 opacity-0 transition-all translate-y-10 duration-700 delay-[.4s]">
-					<a href="#solucoes" class="transition-colors duration-300 sliding-link hover:text-blue-light">
+				<li class="delay-[.4s]">
+					<a href="#solucoes" class="sliding-link">
 						Soluções
 					</a>
 				</li>
 
-				<li class="block py-3 opacity-0 transition-all translate-y-10 duration-700 delay-[.5s]">
-					<a href="#clientes" class="transition-colors duration-300 sliding-link hover:text-blue-light">
+				<li class="delay-[.5s]">
+					<a href="#clientes" class="sliding-link">
 						Clientes
 					</a>
 				</li>
 
-				<li class="block py-3 opacity-0 transition-all translate-y-10 duration-700 delay-[.6s]">
-					<a href="#contato" class="transition-colors duration-300 sliding-link hover:text-blue-light">
+				<li class="delay-[.6s]">
+					<a href="#contato" class="sliding-link">
 						Contato
 					</a>
 				</li>

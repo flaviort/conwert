@@ -1,7 +1,7 @@
 // tailwind.config.js
 module.exports = {
 	content: [
-		"./src/main.css",
+		"./assets/css/src/main.css",
 		"./**/*.php"
 	],
 	theme: {

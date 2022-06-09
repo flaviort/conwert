@@ -16,11 +16,9 @@
 			<section id="banner" class="relative overflow-hidden">
 
 				<div class="absolute top-0 left-0 hidden w-3/4 h-full md:block xl:w-2/3 gradient z-4"></div>
-
-				<div class="absolute top-0 left-0 w-full h-full bg-blue-dark z-2 mix-blend-hue"></div>
 				
-				<video autoplay playsinline muted loop class="md:absolute md:top-0 md:left-0 object-cover w-full md:h-full h-[70vh] wow fadeIn" poster="assets/img/banner.jpg">
-					<source src="assets/videos/banner.mp4">
+				<video autoplay playsinline muted loop class="md:absolute md:top-0 md:left-0 object-cover w-full md:h-full h-[70vh] wow fadeIn bg-blue-dark">
+					<source src="assets/videos/top-banner.mp4">
 				</video>
 
 				<div class="relative container-wrapper z-9">
@@ -251,45 +249,45 @@
 
 					<div class="flex flex-wrap justify-center gap-4 wow fadeInUp">
 
-						<div class="logo">
+						<a href="https://www.blutrafos.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/blutrafos.png" alt="Blutrafos">
-						</div>
+						</a>
 
 						<div class="logo">
 							<img src="assets/img/clientes/eqm.png" alt="Grupo EQM">
 						</div>
 
-						<div class="logo">
+						<a href="http://www.itagres.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/itagres.png" alt="Itagres">
-						</div>
+						</a>
 
-						<div class="logo">
+						<a href="https://www.vondervolke.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/vdv.png" alt="Von der Volke">
-						</div>
+						</a>
 
 						<div class="logo">
 							<img src="assets/img/clientes/pioneira.png" alt="Pioneira">
 						</div>
 
-						<div class="logo">
+						<a href="http://mm.ind.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/mem.png" alt="M&M - Indústria Alimentícia LTDA">
-						</div>
+						</a>
 
-						<div class="logo">
+						<a href="https://fetti.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/fetti.png" alt="Fetti">
-						</div>
+						</a>
 
-						<div class="logo">
+						<a href="https://www.boniella.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/boniella.png" alt="Boniella">
-						</div>
+						</a>
 
-						<div class="logo">
+						<a href="https://ferramentariajn.com/" target="_blank" class="logo">
 							<img src="assets/img/clientes/jn.png" alt="JN Ferramentaria - Excellence for quality">
-						</div>
+						</a>
 
-						<div class="logo">
+						<a href="http://www.dray.ind.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/dray.png" alt="Dray - Artigos Esportivos">
-						</div>
+						</a>
 
 					</div>
 					
@@ -310,8 +308,8 @@
 
 							<div class="block relative z-2 w-full mb-6 bg-center bg-no-repeat bg-cover h-72 sm:h-96 lg:h-full lg:w-[90%] bg-blue-dark lg:mb-0 bg-[url('../../assets/img/connecting-dots.jpg')] wow fadeInUp"></div>
 
-							<div class="absolute left-0 hidden w-32 h-32 max-w-full -top-10 lg:block bg-blue-dark z-1 wow fadeInUp"></div>
-							<div class="absolute z-0 hidden w-32 max-w-full bg-white right-4 -bottom-10 h-80 lg:block wow fadeInUp"></div>
+							<div class="absolute left-0 hidden max-w-full w-52 h-52 -top-10 lg:block bg-blue-dark z-1 wow fadeInUp"></div>
+							<div class="absolute z-0 hidden w-52 max-w-full bg-white -left-20 -bottom-10 h-[95%] lg:block wow fadeInUp"></div>
 							
 						</div>
 

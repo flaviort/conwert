@@ -11,7 +11,7 @@ var options = {
 
 // Task for compiling our CSS files using PostCSS
 function cssTask(cb) {
-    return src("./src/main.css") // read .css files from ./src/ folder
+    return src("./assets/css/src/main.css") // read .css files from ./src/ folder
         .pipe(postcss())
         .pipe(cssimport(options)) // join all imports into one file
         .pipe(cleanCSS({compatibility: 'ie8'})) // minify css

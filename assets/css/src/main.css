@@ -39,6 +39,14 @@
 
 /* fs menu */
 @layer components {
+    #fs-menu nav.menu li {
+        @apply block py-3 transition-all duration-700 translate-y-10 opacity-0;
+    }
+
+    #fs-menu nav.menu li a {
+        @apply tracking-wide transition-colors duration-300 hover:text-blue-light;
+    }
+
     body.menu-open {
         @apply overflow-hidden;
     }
@@ -51,7 +59,7 @@
         @apply right-0;
     }
 
-    body.menu-open #fs-menu li {
+    body.menu-open #fs-menu nav.menu li {
         @apply opacity-100 transform-none;
     }
 }
