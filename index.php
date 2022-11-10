@@ -26,7 +26,7 @@
 					<div class="hidden md:block absolute right-[35%] xl:right-[55%] bottom-0 h-24 w-[300%] bg-gray-100 z-0"></div>
 					<div class="hidden md:block absolute right-[35%] xl:right-[55%] bottom-0 h-full w-[300%] bg-gray-100 z-1 opacity-40"></div>
 
-					<div class="relative flex items-center justify-start md:h-screen z-9 md:max-w-[60%] xl:max-w-[40%] flex-wrap -mt-20 bg-gray-100 md:bg-transparent md:mt-0">
+					<div class="relative flex items-center justify-start md:h-screen z-9 md:max-w-[60%] xl:max-w-[40%] flex-wrap -mt-20 bg-gray-100 md:bg-transparent md:mt-0 md:min-h-[700px]">
 						<div class="px-10 pt-10 pb-4 md:p-0">
 
 							<h1 class="font-bold uppercase text-biggest text-blue-light wow fadeIn">
@@ -39,7 +39,7 @@
 								Somos uma consultoria de gestão, especializada em <strong>reestruturação empresarial</strong>, focada na melhoria do <strong>desempenho</strong>, <strong>competitividade</strong> e <strong>geração de valor</strong>.
 							</p>
 
-							<a href="#sobre-nos" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-all duration-300 bg-blue-dark sm:px-8 sm:py-4 sliding-link text-medium hover:bg-blue-light wow fadeIn" data-wow-delay=".4s">
+							<a href="sobre-nos.php" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-all duration-300 bg-blue-dark sm:px-8 sm:py-4 text-medium hover:bg-blue-light wow fadeIn" data-wow-delay=".4s">
 								Conheça
 							</a>
 
@@ -117,8 +117,8 @@
 									Buscamos incansavelmente medidas de gestão que propiciem a <span class="font-bold text-blue-light">ascensão de empresas</span> nos seus momentos mais adversos.
 								</p>
 
-								<a href="#solucoes" class="inline-block px-6 py-3 font-semibold uppercase transition-all duration-300 bg-transparent border border-gray-700 sm:px-8 sm:py-4 sliding-link text-medium hover:bg-blue-dark hover:text-white hover:border-blue-dark wow fadeInUp">
-									Nossas soluções
+								<a href="sobre-nos.php" class="inline-block px-6 py-3 font-semibold uppercase transition-all duration-300 bg-transparent border border-gray-700 sm:px-8 sm:py-4 text-medium hover:bg-blue-dark hover:text-white hover:border-blue-dark wow fadeInUp">
+									Conheça
 								</a>
 
 							</div>
@@ -144,7 +144,7 @@
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<div class="box wow fadeInUp">
+							<a href="diagnostico-empresarial.php" class="box wow fadeInUp">
 
 								<img src="assets/svg/icon-01.svg" alt="Diagnóstico empresarial" class="icon">
 
@@ -154,14 +154,18 @@
 								</p>
 
 								<p class="text-medium">
-									Através do Diagnóstico Empresarial, buscamos identificar as causas da  baixa performance empresarial e os potenciais de geração de valor, para assim, encontrarmos as alternativas de melhoria de desempenho e de gestão, que resultem de forma célere e segura, a reestruturação do negócio.
+									Através do Diagnóstico Empresarial, buscamos identificar as causas da  baixa performance empresarial e os potenciais de geração de valor, para assim, encontrarmos as alternativas de melhoria de desempenho e de gestão, que resultem de forma célere e segura, na reestruturação do negócio.
 								</p>
 
-							</div>
+								<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
+								</span>
+
+							</a>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<div class="box wow fadeInUp">
+							<a href="gestao-de-reestruturacao.php" class="box wow fadeInUp">
 
 								<img src="assets/svg/icon-02.svg" alt="Gestão de reestruturação" class="icon">
 
@@ -171,14 +175,18 @@
 								</p>
 
 								<p class="text-medium">
-									Lideramos o processo de transformação e recuperação da atividade envidando os esforços na execução das medidas que visam a melhor eficiência e geração de resultado. O resgate a credibilidade, o acesso ao crédito para a correta utilização dos recursos no processo produtivo e a redução dos custos são alguns dos passos que preconizam este processo.									
+									Lideramos o processo de transformação e recuperação da atividade envidando os esforços na execução das medidas que visam a melhor eficiência e geração de resultado. O resgate da credibilidade, o acesso ao crédito para a correta utilização dos recursos no processo produtivo e a redução dos custos são alguns dos passos que preconizam este processo.									
 								</p>
 
-							</div>
+								<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
+								</span>
+
+							</a>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<div class="box wow fadeInUp">
+							<a href="gestao-de-recuperacao-extra-judicial.php" class="box wow fadeInUp">
 
 								<img src="assets/svg/icon-03.svg" alt="Gestão de recuperação extra / judicial" class="icon">
 
@@ -191,11 +199,15 @@
 									Apesar de ser um processo judicial, a legislação recuperacional requer a aplicação de medidas multidisciplinares, que impactam em toda a empresa e devem, para tanto, ser assessorada por empresa especializada de gestão, cujo conhecimento ultrapasse a base legal e alcance o dia a dia das atividades empresariais.
 								</p>
 
-							</div>
+								<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
+								</span>
+
+							</a>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<div class="box wow fadeInUp">
+							<a href="gestao-de-controladoria.php" class="box wow fadeInUp">
 
 								<img src="assets/svg/icon-04.svg" alt="Gestão de controladoria" class="icon">
 
@@ -208,11 +220,15 @@
 									Nossos serviços de Gestão de Controladoria consistem em apurações gerenciais de custos, desempenho e rentabilidade, que gerem as informações necessárias para a melhor tomada de decisão e assim, potencializem o desempenho empresarial, revertendo crises ou melhorando ainda mais o resultado do negócio.
 								</p>
 
-							</div>
+								<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
+								</span>
+
+							</a>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<div class="box wow fadeInUp">
+							<a href="captacoes-e-intermediacoes.php" class="box wow fadeInUp">
 
 								<img src="assets/svg/icon-05.svg" alt="Captações e intermediações" class="icon">
 
@@ -225,13 +241,17 @@
 									Estruturar o melhor formato e condições das linhas de crédito para adequar a correta alocação é o principal objetivo da Unidade de Captação e Intermediação. Ter uma equipe especializada que sustente tecnicamente a defesa de crédito, tendo acesso aos mais diversos agentes financeiros do mercado é o fator preponderante no sucesso e agilidade do processo.									
 								</p>
 
-							</div>
+								<span class="arrow">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
+								</span>
+
+							</a>
 						</div>
 
 					</div>
 
 					<div class="block w-full pt-6 pb-16 text-center sm:pt-8 md:pt-12 md:pb-24 xl:pb-28 ">
-						<a href="#contato" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-all duration-300 bg-transparent border border-white sm:px-8 sm:py-4 sliding-link text-medium hover:bg-white hover:text-blue-dark wow fadeInUp">
+						<a href="contato.php" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-all duration-300 bg-transparent border border-white sm:px-8 sm:py-4 text-medium hover:bg-white hover:text-blue-dark wow fadeInUp">
 							Entre em contato
 						</a>
 					</div>
@@ -294,75 +314,92 @@
 				</div>
 			</section>
 
-			<!-- contato -->
-			<section id="contato" class="pb-20 xl:pb-52 md:pb-36 sm:pb-28">
+			<!-- blog -->
+			<section id="blog" class="pb-20 xl:pb-52 md:pb-36 sm:pb-28">
 				<div class="container-wrapper">
 
 					<p class="block pt-16 pb-6 mx-auto font-bold text-center uppercase sm:pt-20 sm:pb-12 lg:pb-20 lg:pt-28 text-blue-light text-bigger wow fadeInUp">
-						Contato
+						Blog
 					</p>
 
-					<div class="flex flex-wrap justify-between -mx-4">
+					<div class="flex flex-wrap justify-between -mx-4 text-medium wow fadeInUp">
 
-						<div class="relative flex items-center justify-center w-full px-4 pb-8 lg:pb-0 lg:w-1/2">
+						<div class="w-full px-4 lg:w-1/3">
+							<a href="blog-internal.php" class="blog-box">
+								
+								<div class="image">
+									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
+								</div>
 
-							<div class="block relative z-2 w-full mb-6 bg-center bg-no-repeat bg-cover h-72 sm:h-96 lg:h-full lg:w-[90%] bg-blue-dark lg:mb-0 bg-[url('../../assets/img/connecting-dots.jpg')] wow fadeInUp"></div>
+								<p class="date">
+									25 de maio de 2022
+								</p>
 
-							<div class="absolute left-0 hidden max-w-full w-52 h-52 -top-10 lg:block bg-blue-dark z-1 wow fadeInUp"></div>
-							<div class="absolute z-0 hidden w-52 max-w-full bg-white -left-20 -bottom-10 h-[95%] lg:block wow fadeInUp"></div>
-							
+								<p class="title">
+									Exemplo de título de post
+								</p>
+
+								<p class="desc">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
+								</p>
+
+								<span class="button">
+									Leia mais
+								</span>
+
+							</a>
 						</div>
 
-						<div class="w-full px-4 lg:w-1/2">
-							<form action="https://formsubmit.co/conwert@conwert.com.br" method="post" id="contact-form">
-
-								<input type="hidden" name="_next" value="https://www.conwert.com.br/_temp/#contato-sucesso">
-								<input type="hidden" name="_subject" value="Conwert - Formulário de contato">
-								<input type="hidden" name="_captcha" value="false">
-								<input type="text" name="_honey" style="display: none">
-								<input type="hidden" name="_template" value="box">
-
-								<div class="line wow fadeInUp">
-									<label for="empresa" class="text-medium label">Empresa</label>
-									<input type="text" name="Empresa" id="empresa" class="text-medium input">
-								</div>
-
-								<div class="line wow fadeInUp">
-									<label for="nome" class="text-medium label">Nome completo *</label>
-									<input type="text" name="Nome" id="nome" class="text-medium input" required>
-								</div>
-
-								<div class="line wow fadeInUp">
-									<label for="email" class="text-medium label">Email *</label>
-									<input type="email" name="Email" id="email" class="text-medium input" required>
-								</div>
-
-								<div class="line active wow fadeInUp">
-									<label for="solucao" class="text-medium label">Solução *</label>
-									<select name="Solução" id="solucao" class="pr-5 appearance-none cursor-pointer text-medium input select" required>
-										<option value="" selected disabled>Selecione uma</option>
-										<option value="Diagnóstico empresarial">Diagnóstico empresarial</option>
-										<option value="Gestão de reestruturação">Gestão de reestruturação</option>
-										<option value="Gestão de recuperação extra / judicial">Gestão de recuperação extra / judicial</option>
-										<option value="Gestão de controladoria">Gestão de controladoria</option>
-										<option value="Captações e intermediações">Captações e intermediações</option>
-										<option value="Outras">Outras</option>
-									</select>
-									<img src="assets/svg/angle-down.svg" alt="Mais" class="absolute right-0 block w-5 h-5 text-gray-500 pointer-events-none svg top-2 z-3">
-								</div>
-
-								<div class="line wow fadeInUp">
-									<label for="mensagem" class="text-medium label">Mensagem *</label>
-									<textarea name="Mensagem" id="mensagem" class="text-medium input textarea min-h-[120px] h-[120px] resize-y" required></textarea>
-								</div>
-
-								<div class="!mb-0 line wow fadeInUp">
-									<button type="submit" id="submit-form" form="contact-form" value="Enviar" class="inline-block px-6 py-3 font-semibold text-white uppercase transition-colors duration-300 bg-blue-dark sm:px-8 sm:py-4 text-medium hover:bg-blue-light">
-										Enviar
-									</button>
-								</div>
+						<div class="w-full px-4 lg:w-1/3">
+							<a href="blog-internal.php" class="blog-box">
 								
-							</form>
+								<div class="image">
+									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
+								</div>
+
+								<p class="date">
+									25 de maio de 2022
+								</p>
+
+								<p class="title">
+									Exemplo de título de post
+								</p>
+
+								<p class="desc">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
+								</p>
+
+								<span class="button">
+									Leia mais
+								</span>
+
+							</a>
+						</div>
+
+						<div class="w-full px-4 lg:w-1/3">
+							<a href="blog-internal.php" class="blog-box">
+								
+								<div class="image">
+									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
+								</div>
+
+								<p class="date">
+									25 de maio de 2022
+								</p>
+
+								<p class="title">
+									Exemplo de título de post
+								</p>
+
+								<p class="desc">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
+								</p>
+
+								<span class="button">
+									Leia mais
+								</span>
+
+							</a>
 						</div>
 
 					</div>
@@ -376,7 +413,6 @@
 
 			<footer>
 				<script src="assets/js/framework.js"></script>
-				<script src="assets/js/home.js" defer></script>
 			</footer>
 
 		</div>

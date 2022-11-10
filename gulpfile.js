@@ -36,7 +36,7 @@ function browsersyncReload(cb) {
 // Watch Files & Reload browser after tasks
 function watchTask() {
     watch("./**/*.php", series(cssTask, browsersyncReload));
-    watch(["./src/*.css"], series(cssTask, browsersyncReload));
+    watch(["./assets/css/src/*.css", "./assets/css/main.css"], series(cssTask, browsersyncReload));
 }
 
 // Default Gulp Task

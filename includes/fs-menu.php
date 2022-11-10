@@ -11,31 +11,43 @@
 			<ul>
 
 				<li class="delay-[.2s]">
-					<a href="#banner" class="sliding-link">
+					<a href="./">
 						Início
 					</a>
 				</li>
 				
 				<li class="delay-[.3s]">
-					<a href="#sobre-nos" class="sliding-link">
+					<a href="sobre-nos.php">
 						Sobre nós
 					</a>
 				</li>
 
 				<li class="delay-[.4s]">
-					<a href="#solucoes" class="sliding-link">
+					<a href="solucoes.php">
 						Soluções
 					</a>
 				</li>
 
 				<li class="delay-[.5s]">
-					<a href="#clientes" class="sliding-link">
-						Clientes
+					<a href="time.php">
+						Time
 					</a>
 				</li>
 
 				<li class="delay-[.6s]">
-					<a href="#contato" class="sliding-link">
+					<a href="clientes.php">
+						Clientes
+					</a>
+				</li>
+
+				<li class="delay-[.7s]">
+					<a href="blog.php">
+						Blog
+					</a>
+				</li>
+
+				<li class="delay-[.8s]">
+					<a href="contato.php">
 						Contato
 					</a>
 				</li>

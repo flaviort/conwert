@@ -13,6 +13,48 @@
                 </a>
             </div>
 
+            <div class="w-full px-4 pt-4 my-5 md:w-1/3 xl:w-1/4 md:my-0">
+
+                <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mb-5 text-medium">
+                    Nossas Soluções
+                </p>
+
+                <ul>
+                
+                    <li>
+                        <a href="diagnostico-empresarial.php" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+                            Diagnóstico Empresarial
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="gestao-de-reestruturacao.php" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+                            Gestão de Reestruturação
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="gestao-de-recuperacao-extra-judicial.php" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+                            Gestão de Recuperação Extra / Judicial
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="gestao-de-controladoria.php" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+                            Gestão de Controladoria
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="captacoes-e-intermediacoes.php" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+                            Captações e Intermediações
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
             <div class="w-full px-4 pt-4 md:w-1/3 xl:w-1/4">
 
                 <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mb-5 text-medium">
@@ -25,11 +67,7 @@
                     CEP: 88330-620
                 </p>
 
-            </div>
-
-            <div class="w-full px-4 pt-4 my-5 md:w-1/3 xl:w-1/4 md:my-0">
-
-                <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mb-5 text-medium">
+                <p class="block mb-2 font-bold text-white uppercase border-b border-white mt-8 md:my-5 text-medium">
                     Fone
                 </p>
 
@@ -41,7 +79,7 @@
 
             <div class="w-full px-4 pt-4 md:w-1/3 xl:w-1/4">
 
-                <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mb-5 text-medium">
+                <p class="block mb-2 font-bold text-white uppercase border-b border-white md:mt-0 mt-4 md:mb-5 text-medium">
                     Conecte-se
                 </p>
 
@@ -82,5 +120,60 @@
             </div>
 
         </div>
+
+        <div class="sm:text-center lg:flex lg:items-center lg:justify-between border-t border-[#172a4d] pt-8 sm:mt-14 mt-8 text-white">
+            
+            <ul class="sm:flex items-center justify-center lg:justify-start lg:gap-10 gap-6 lg:mb-0 mb-5">
+                
+                <li class="sm:my-0 my-1 block">
+					<a href="./" class="hover:opacity-70 transition-opacity duration-300">
+						Início
+					</a>
+				</li>
+				
+				<li class="sm:my-0 my-1 block">
+					<a href="sobre-nos.php" class="hover:opacity-70 transition-opacity duration-300">
+						Sobre nós
+					</a>
+				</li>
+
+				<li class="sm:my-0 my-1 block">
+					<a href="solucoes.php" class="hover:opacity-70 transition-opacity duration-300">
+						Soluções
+					</a>
+				</li>
+
+				<li class="sm:my-0 my-1 block">
+					<a href="time.php" class="hover:opacity-70 transition-opacity duration-300">
+						Time
+					</a>
+				</li>
+
+				<li class="sm:my-0 my-1 block">
+					<a href="clientes.php" class="hover:opacity-70 transition-opacity duration-300">
+						Clientes
+					</a>
+				</li>
+
+				<li class="sm:my-0 my-1 block">
+					<a href="blog.php" class="hover:opacity-70 transition-opacity duration-300">
+						Blog
+					</a>
+				</li>
+
+				<li class="sm:my-0 my-1 block">
+					<a href="contato.php" class="hover:opacity-70 transition-opacity duration-300">
+						Contato
+					</a>
+				</li>
+
+            </ul>
+
+            <p>
+                Copyright @2022
+            </p>
+
+        </div>
+
     </div>
 </section>

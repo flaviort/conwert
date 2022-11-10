@@ -1,4 +1,4 @@
-<section class="absolute top-0 left-0 z-50 w-full">
+<section class="absolute top-0 left-0 z-50 w-full" id="top-menu">
     <div class="relative py-4 sm:py-5 xl:py-6 container-wrapper">
 
         <div class="absolute z-0 top-0 right-4 sm:right-10 lg:right-20 bg-white w-[300%] h-full"></div>
@@ -9,29 +9,41 @@
                 <img src="assets/svg/logo.svg" alt="Conwert" class="max-w-full transition-opacity duration-300 svg group-hover:opacity-70 !h-auto">
             </a>
 
-            <nav class="hidden pr-32 xl:pr-52 lg:block">
+            <nav class="hidden pr-20 xl:pr-32 lg:block">
                 <ul class="flex items-center gap-5 font-semibold uppercase xl:gap-10 text-medium justify-evenly">
                     
                     <li>
-                        <a href="#sobre-nos" class="sliding-link hvr-underline-from-left before:h-[2px] before:bg-gray-700">
+                        <a href="sobre-nos.php" class="hvr-underline-from-left">
                             Sobre nós
                         </a>
                     </li>
 
                     <li>
-                        <a href="#solucoes" class="sliding-link hvr-underline-from-left before:h-[2px] before:bg-gray-700">
+                        <a href="solucoes.php" class="hvr-underline-from-left">
                             Soluções
                         </a>
                     </li>
 
                     <li>
-                        <a href="#clientes" class="sliding-link hvr-underline-from-left before:h-[2px] before:bg-gray-700">
+                        <a href="time.php" class="hvr-underline-from-left">
+                            Time
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#clientes" class="hvr-underline-from-left">
                             Clientes
                         </a>
                     </li>
 
                     <li>
-                        <a href="#contato" class="sliding-link hvr-underline-from-left before:h-[2px] before:bg-gray-700">
+                        <a href="blog.php" class="hvr-underline-from-left">
+                            Blog
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contato.php" class="hvr-underline-from-left">
                             Contato
                         </a>
                     </li>

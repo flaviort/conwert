@@ -1,34 +1,29 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
 
-@layer components {
-	body {
-		@apply bg-gray-100 font-montserrat text-neutral-700;
-	}
+body {
+    @apply bg-gray-100 font-montserrat text-neutral-700;
+}
 
-    .container-wrapper {
-        @apply w-full px-6 mx-auto max-w-screen-2xl;
-    }
+.container-wrapper {
+    @apply w-full px-6 mx-auto max-w-screen-2xl;
+}
 
-    .text-medium {
-        @apply text-base md:text-lg;
-    }
+.text-medium {
+    @apply text-base md:text-lg;
+}
 
-    .text-big {
-        @apply text-lg md:text-xl lg:text-2xl;
-    }
+.text-big {
+    @apply text-lg md:text-xl lg:text-2xl;
+}
 
-    .text-bigger {
-        @apply text-2xl tracking-wide sm:text-3xl md:text-4xl lg:text-5xl;
-    }
+.text-bigger {
+    @apply text-2xl tracking-wide sm:text-3xl md:text-4xl lg:text-5xl;
+}
 
-    .text-biggest {
-        @apply text-3xl tracking-wide sm:text-4xl md:text-5xl lg:text-6xl;
-    }
-
+.text-biggest {
+    @apply text-3xl tracking-wide sm:text-4xl md:text-5xl lg:text-6xl;
 }
 
 /* global imports */
@@ -37,36 +32,164 @@
 @import 'custom-scrollbar.css';
 @import 'animations.css';
 
+/* ------------------------------------------
+---------------------------------------------
+        ## GLOBAL COMPONENTS
+---------------------------------------------
+-------------------------------------------*/
+
 /* fs menu */
-@layer components {
-    #fs-menu nav.menu li {
-        @apply block py-3 transition-all duration-700 translate-y-10 opacity-0;
-    }
-
-    #fs-menu nav.menu li a {
-        @apply tracking-wide transition-colors duration-300 hover:text-blue-light;
-    }
-
-    body.menu-open {
-        @apply overflow-hidden;
-    }
-
-    body.menu-open .menu-overlay {
-        @apply opacity-100;
-    }
-
-    body.menu-open #fs-menu {
-        @apply right-0;
-    }
-
-    body.menu-open #fs-menu nav.menu li {
-        @apply opacity-100 transform-none;
-    }
+#fs-menu nav.menu li {
+    @apply block py-3 transition-all duration-700 translate-y-10 opacity-0;
 }
+
+#fs-menu nav.menu li a {
+    @apply tracking-wide transition-colors duration-300 hover:text-blue-light;
+}
+
+body.menu-open {
+    @apply overflow-hidden;
+}
+
+body.menu-open .menu-overlay {
+    @apply opacity-100;
+}
+
+body.menu-open #fs-menu {
+    @apply right-0;
+}
+
+body.menu-open #fs-menu nav.menu li {
+    @apply opacity-100 transform-none;
+}
+
+/* top menu */
+#top-menu nav ul li a {
+    @apply before:h-[2px] before:bg-gray-700;
+}
+
+/* boxes soluções */
+#solucoes .box {
+    @apply block p-6 bg-white md:h-full sm:p-8 lg:p-10 transition-colors duration-300 hover:bg-blue-light;
+}
+
+#solucoes .box .icon {
+    @apply inline-block w-16 h-auto sm:w-20 md:w-24 lg:w-28;
+}
+
+#solucoes .box .title {
+    @apply block my-4 font-bold leading-tight uppercase sm:my-5 text-big text-blue-light transition-colors duration-300;
+}
+
+#solucoes .box:hover .title {
+    @apply text-white
+}
+
+#solucoes .box .title br {
+    @apply hidden sm:block;
+}
+
+#solucoes .box .text-medium {
+    @apply transition-colors duration-300 block mb-10 sm:mb-6 md:mb-8;
+}
+
+#solucoes .box:hover .text-medium {
+    @apply text-white;
+}
+
+#solucoes .box .arrow {
+    @apply absolute bottom-0 left-[calc(100%-2.5rem)] sm:left-8 lg:left-10 w-10 h-10 flex items-center justify-center p-3 bg-blue-light text-white transition-all duration-300;
+}
+
+#solucoes .box:hover .arrow {
+    @apply text-blue-light bg-white left-[calc(100%-2.5rem)];
+}
+
+/* boxes clientes */
+#clientes .logo {
+    filter: saturate(0);
+    @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
+}
+
+/* box blog */
+.blog-box {
+    @apply block relative p-5 bg-transparent border border-gray-200 text-gray-600 transition-colors duration-300 hover:bg-white mb-6;
+}
+
+.blog-box .image {
+    @apply relative block w-full h-0 pb-[56%] overflow-hidden;
+}
+
+.blog-box .image img {
+    @apply absolute top-0 left-0 w-full h-full object-cover;
+}
+
+.blog-box .date {
+    @apply block mt-4;
+}
+
+.blog-box .title {
+    @apply block text-blue-light font-bold mb-3 text-lg lg:text-xl;
+}
+
+.blog-box .desc {
+    @apply block mb-4;
+}
+
+.blog-box .button {
+    @apply inline-block px-5 py-2 border border-blue-light uppercase text-sm sm:text-base transition-colors duration-300;
+}
+
+.blog-box:hover .button {
+    @apply bg-blue-light text-white;
+}
+
+/* contato */
+#contact-form .line {
+    @apply relative block w-full mb-12;
+}
+
+#contact-form .line.active .label {
+    @apply scale-75 -top-6 text-blue-light;
+}
+
+#contact-form .line .label {
+    @apply absolute top-0 left-0 text-gray-400 transition-all duration-300 origin-top-left z-2;
+}
+
+#contact-form .line .input {
+    @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1;
+}
+
+#contact-form .line .input.error {
+    @apply border-red-700;
+}
+
+#contact-form .line .input.select {
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(243 244 246 / var(--tw-bg-opacity)) inset !important;
+}
+
+#contact-form .line label.error {
+    @apply block mt-1 text-xs text-red-700 md:text-sm;
+}
+
+/* ------------------------------------------
+---------------------------------------------
+        ## HOME
+---------------------------------------------
+-------------------------------------------*/
 
 /* banner topo */
 @layer components {
-    #banner .gradient {
+    body.home #banner .gradient {
         background: rgb(239,244,249);
         background: -moz-linear-gradient(90deg, rgba(239,244,249,1) 0%, rgba(239,244,249,0) 100%);
         background: -webkit-linear-gradient(90deg, rgba(239,244,249,1) 0%, rgba(239,244,249,0) 100%);
@@ -75,68 +198,5 @@
     }
 }
 
-/* soluções */
-@layer components {
-    #solucoes .box {
-        @apply block p-6 bg-white md:h-full sm:p-8 lg:p-10;
-    }
-
-    #solucoes .box .icon {
-        @apply inline-block w-16 h-auto sm:w-20 md:w-24 lg:w-28;
-    }
-
-    #solucoes .box .title {
-        @apply block my-4 font-bold leading-tight uppercase sm:my-5 text-big text-blue-light;
-    }
-
-    #solucoes .box .title br {
-        @apply hidden sm:block;
-    }
-}
-
-/* clientes */
-@layer components {
-    #clientes .logo {
-        filter: saturate(0);
-        @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
-    }
-}
-
-/* contato */
-@layer components {
-    #contato form .line {
-        @apply relative block w-full mb-12;
-    }
-
-    #contato form .line.active .label {
-        @apply scale-75 -top-6 text-blue-light;
-    }
-
-    #contato form .line .label {
-        @apply absolute top-0 left-0 text-gray-400 transition-all duration-300 origin-top-left z-2;
-    }
-
-    #contato form .line .input {
-        @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1;
-    }
-
-    #contato form .line .input.error {
-        @apply border-red-700;
-    }
-
-    #contato form .line .input.select {
-        text-indent: 1px;
-        text-overflow: '';
-    }
-
-    input:-webkit-autofill,
-    input:-webkit-autofill:hover, 
-    input:-webkit-autofill:focus, 
-    input:-webkit-autofill:active{
-        -webkit-box-shadow: 0 0 0 30px rgb(243 244 246 / var(--tw-bg-opacity)) inset !important;
-    }
-
-    #contato form .line label.error {
-        @apply block mt-1 text-xs text-red-700 md:text-sm;
-    }
-}
+@tailwind components;
+@tailwind utilities;
