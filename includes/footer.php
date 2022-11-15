@@ -1,7 +1,7 @@
 <section class="relative bg-blue-dark z-9">
 	<div class="relative pt-12 pb-8 container-wrapper md:py-12 xl:py-16">
 
-        <a href="#banner" class="absolute top-0 flex items-center justify-center transition-all duration-300 w-14 h-14 -mt-7 sm:w-16 sm:h-16 sm:-mt-8 right-6 sliding-link bg-blue-light hover:-translate-y-1">
+        <a href="#top-menu" class="absolute top-0 flex items-center justify-center transition-all duration-300 w-14 h-14 -mt-7 sm:w-16 sm:h-16 sm:-mt-8 right-6 sliding-link bg-blue-light hover:-translate-y-1">
             <img src="assets/svg/arrow-up.svg" alt="Voltar ao topo da página" class="svg w-[30%] h-[30%] text-white">
         </a>
 

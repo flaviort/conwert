@@ -144,108 +144,23 @@
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<a href="diagnostico-empresarial.php" class="box wow fadeInUp">
-
-								<img src="assets/svg/icon-01.svg" alt="Diagnóstico empresarial" class="icon">
-
-								<p class="title">
-									Diagnóstico <br />
-									empresarial
-								</p>
-
-								<p class="text-medium">
-									Através do Diagnóstico Empresarial, buscamos identificar as causas da  baixa performance empresarial e os potenciais de geração de valor, para assim, encontrarmos as alternativas de melhoria de desempenho e de gestão, que resultem de forma célere e segura, na reestruturação do negócio.
-								</p>
-
-								<span class="arrow">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
-								</span>
-
-							</a>
+							<?php include('includes/block-diagnostico-empresarial.php'); ?>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<a href="gestao-de-reestruturacao.php" class="box wow fadeInUp">
-
-								<img src="assets/svg/icon-02.svg" alt="Gestão de reestruturação" class="icon">
-
-								<p class="title">
-									Gestão de <br />
-									reestruturação
-								</p>
-
-								<p class="text-medium">
-									Lideramos o processo de transformação e recuperação da atividade envidando os esforços na execução das medidas que visam a melhor eficiência e geração de resultado. O resgate da credibilidade, o acesso ao crédito para a correta utilização dos recursos no processo produtivo e a redução dos custos são alguns dos passos que preconizam este processo.									
-								</p>
-
-								<span class="arrow">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
-								</span>
-
-							</a>
+							<?php include('includes/block-gestao-de-reestruturacao.php'); ?>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<a href="gestao-de-recuperacao-extra-judicial.php" class="box wow fadeInUp">
-
-								<img src="assets/svg/icon-03.svg" alt="Gestão de recuperação extra / judicial" class="icon">
-
-								<p class="title">
-									Gestão de recuperação <br />
-									extra / judicial
-								</p>
-
-								<p class="text-medium">
-									Apesar de ser um processo judicial, a legislação recuperacional requer a aplicação de medidas multidisciplinares, que impactam em toda a empresa e devem, para tanto, ser assessorada por empresa especializada de gestão, cujo conhecimento ultrapasse a base legal e alcance o dia a dia das atividades empresariais.
-								</p>
-
-								<span class="arrow">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
-								</span>
-
-							</a>
+							<?php include('includes/block-gestao-de-recuperacao-extra-judicial.php'); ?>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<a href="gestao-de-controladoria.php" class="box wow fadeInUp">
-
-								<img src="assets/svg/icon-04.svg" alt="Gestão de controladoria" class="icon">
-
-								<p class="title">
-									Gestão de <br />
-									controladoria
-								</p>
-
-								<p class="text-medium">
-									Nossos serviços de Gestão de Controladoria consistem em apurações gerenciais de custos, desempenho e rentabilidade, que gerem as informações necessárias para a melhor tomada de decisão e assim, potencializem o desempenho empresarial, revertendo crises ou melhorando ainda mais o resultado do negócio.
-								</p>
-
-								<span class="arrow">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
-								</span>
-
-							</a>
+							<?php include('includes/block-gestao-de-controladoria.php'); ?>
 						</div>
 
 						<div class="w-full px-4 py-2 sm:py-4 md:w-1/2 xl:w-1/3">
-							<a href="captacoes-e-intermediacoes.php" class="box wow fadeInUp">
-
-								<img src="assets/svg/icon-05.svg" alt="Captações e intermediações" class="icon">
-
-								<p class="title">
-									Captações e <br />
-									intermediações
-								</p>
-
-								<p class="text-medium">
-									Estruturar o melhor formato e condições das linhas de crédito para adequar a correta alocação é o principal objetivo da Unidade de Captação e Intermediação. Ter uma equipe especializada que sustente tecnicamente a defesa de crédito, tendo acesso aos mais diversos agentes financeiros do mercado é o fator preponderante no sucesso e agilidade do processo.									
-								</p>
-
-								<span class="arrow">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M264.6 70.63l176 168c4.75 4.531 7.438 10.81 7.438 17.38s-2.688 12.84-7.438 17.38l-176 168c-9.594 9.125-24.78 8.781-33.94-.8125c-9.156-9.5-8.812-24.75 .8125-33.94l132.7-126.6H24.01c-13.25 0-24.01-10.76-24.01-24.01s10.76-23.99 24.01-23.99h340.1l-132.7-126.6C221.8 96.23 221.5 80.98 230.6 71.45C239.8 61.85 254.1 61.51 264.6 70.63z" fill="currentcolor"/></svg>
-								</span>
-
-							</a>
+							<?php include('includes/block-captacoes-e-intermediacoes.php'); ?>
 						</div>
 
 					</div>
@@ -267,7 +182,7 @@
 						Nossos clientes
 					</p>
 
-					<div class="flex flex-wrap justify-center gap-4 wow fadeInUp">
+					<div class="flex flex-wrap justify-center gap-4 wow fadeInUp logo-boxes">
 
 						<a href="https://www.blutrafos.com.br/" target="_blank" class="logo">
 							<img src="assets/img/clientes/blutrafos.png" alt="Blutrafos">
@@ -325,81 +240,15 @@
 					<div class="flex flex-wrap justify-between -mx-4 text-medium wow fadeInUp">
 
 						<div class="w-full px-4 lg:w-1/3">
-							<a href="blog-internal.php" class="blog-box">
-								
-								<div class="image">
-									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
-								</div>
-
-								<p class="date">
-									25 de maio de 2022
-								</p>
-
-								<p class="title">
-									Exemplo de título de post
-								</p>
-
-								<p class="desc">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
-								</p>
-
-								<span class="button">
-									Leia mais
-								</span>
-
-							</a>
+							<?php include('includes/blog-box.php'); ?>
 						</div>
 
 						<div class="w-full px-4 lg:w-1/3">
-							<a href="blog-internal.php" class="blog-box">
-								
-								<div class="image">
-									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
-								</div>
-
-								<p class="date">
-									25 de maio de 2022
-								</p>
-
-								<p class="title">
-									Exemplo de título de post
-								</p>
-
-								<p class="desc">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
-								</p>
-
-								<span class="button">
-									Leia mais
-								</span>
-
-							</a>
+							<?php include('includes/blog-box.php'); ?>
 						</div>
 
 						<div class="w-full px-4 lg:w-1/3">
-							<a href="blog-internal.php" class="blog-box">
-								
-								<div class="image">
-									<img src="assets/img/post.jpg" alt="Exemplo de título de post">
-								</div>
-
-								<p class="date">
-									25 de maio de 2022
-								</p>
-
-								<p class="title">
-									Exemplo de título de post
-								</p>
-
-								<p class="desc">
-									Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda numquam tenetur delectus dolorem qui mollitia quaerat maxime asperiores impedit.
-								</p>
-
-								<span class="button">
-									Leia mais
-								</span>
-
-							</a>
+							<?php include('includes/blog-box.php'); ?>
 						</div>
 
 					</div>

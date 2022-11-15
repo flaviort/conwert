@@ -12,6 +12,7 @@ module.exports = {
 			colors: {
 				'blue-light': '#4b6fb5',
 				'blue-dark': '#1c335d',
+				'blue-medium': '#5270b1'
 			},
 			zIndex: {
 				'1': '1',

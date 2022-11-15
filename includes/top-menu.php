@@ -31,7 +31,7 @@
                     </li>
 
                     <li>
-                        <a href="#clientes" class="hvr-underline-from-left">
+                        <a href="clientes.php" class="hvr-underline-from-left">
                             Clientes
                         </a>
                     </li>
