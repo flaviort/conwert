@@ -1,0 +1,311 @@
+@tailwind base;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+body {
+    @apply bg-gray-100 font-montserrat text-neutral-700;
+}
+
+.container-wrapper {
+    @apply w-full px-6 mx-auto max-w-screen-2xl;
+}
+
+.text-medium {
+    @apply text-base md:text-lg;
+}
+
+.text-big {
+    @apply text-lg md:text-xl lg:text-2xl;
+}
+
+.text-bigger {
+    @apply text-2xl tracking-wide sm:text-3xl md:text-4xl lg:text-5xl;
+}
+
+.text-biggest {
+    @apply text-3xl tracking-wide sm:text-4xl md:text-5xl lg:text-6xl;
+}
+
+/* global imports */
+/*@import 'breakpoints.css';*/
+@import 'reset.css';
+@import 'custom-scrollbar.css';
+@import 'animations.css';
+
+/* ------------------------------------------
+---------------------------------------------
+        ## GLOBAL COMPONENTS
+---------------------------------------------
+-------------------------------------------*/
+
+/* fs menu */
+#fs-menu nav.menu li {
+    @apply block py-3 transition-all duration-700 translate-y-10 opacity-0;
+}
+
+#fs-menu nav.menu li a {
+    @apply tracking-wide transition-colors duration-300 hover:text-blue-light;
+}
+
+body.menu-open {
+    @apply overflow-hidden;
+}
+
+body.menu-open .menu-overlay {
+    @apply opacity-100;
+}
+
+body.menu-open #fs-menu {
+    @apply right-0;
+}
+
+body.menu-open #fs-menu nav.menu li {
+    @apply opacity-100 transform-none;
+}
+
+/* top menu */
+#top-menu nav ul li a {
+    @apply before:h-[2px] before:bg-gray-700;
+}
+
+/* boxes soluções */
+#solucoes .box {
+    @apply block p-6 bg-white md:h-full sm:p-8 lg:p-10 transition-colors duration-300 hover:bg-blue-light;
+}
+
+#solucoes .box .icon {
+    @apply inline-block w-16 h-auto sm:w-20 md:w-24 lg:w-28;
+}
+
+#solucoes .box .title {
+    @apply block my-4 font-bold leading-tight uppercase sm:my-5 text-big text-blue-light transition-colors duration-300;
+}
+
+#solucoes .box:hover .title {
+    @apply text-white
+}
+
+#solucoes .box .title br {
+    @apply hidden sm:block;
+}
+
+#solucoes .box .text-medium {
+    @apply transition-colors duration-300 block mb-10 sm:mb-6 md:mb-8;
+}
+
+#solucoes .box:hover .text-medium {
+    @apply text-white;
+}
+
+#solucoes .box .arrow {
+    @apply absolute bottom-0 left-[calc(100%-2.5rem)] sm:left-8 lg:left-10 w-10 h-10 flex items-center justify-center p-3 bg-blue-light text-white transition-all duration-300;
+}
+
+#solucoes .box:hover .arrow {
+    @apply text-blue-light bg-white left-[calc(100%-2.5rem)];
+}
+
+/* boxes clientes */
+.logo-boxes .logo {
+    filter: saturate(0);
+    @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
+}
+
+/* box blog */
+.blog-box {
+    @apply block relative p-5 bg-transparent border border-gray-200 text-gray-600 transition-colors duration-300 hover:bg-white mb-6;
+}
+
+.blog-box .image {
+    @apply relative block w-full h-0 pb-[56%] overflow-hidden bg-gray-200;
+}
+
+.blog-box .image img {
+    @apply absolute top-0 left-0 w-full h-full object-cover;
+}
+
+.blog-box .image .category {
+    @apply absolute right-1 bottom-1 inline-block py-1 px-2 text-xs leading-normal bg-white text-blue-dark z-2;
+}
+
+.blog-box .date {
+    @apply block mt-4;
+}
+
+.blog-box .title {
+    @apply block text-blue-light font-bold mb-3 text-lg lg:text-xl;
+}
+
+.blog-box .desc {
+    @apply block mb-4;
+}
+
+.blog-box .button {
+    @apply inline-block px-5 py-2 border border-blue-light uppercase text-sm sm:text-base transition-colors duration-300;
+}
+
+.blog-box:hover .button {
+    @apply bg-blue-light text-white;
+}
+
+/* blog pagination */
+.blog-pagination {
+    @apply block text-left w-full relative border-t border-blue-light pt-10 mt-5 sm:mt-10;
+}
+
+.blog-pagination li {
+    @apply inline-block align-middle mb-2 mr-2;
+}
+
+.blog-pagination li a {
+    @apply flex w-9 h-9 items-center justify-center text-center rounded-full border border-gray-400 transition-colors duration-300;
+}
+
+.blog-pagination li a:hover,
+.blog-pagination li a:focus {
+    @apply bg-gray-200;
+}
+
+.blog-pagination li.active a {
+    @apply !bg-blue-light !text-white !border-blue-light;
+}
+
+/* blog internal content */
+.blog-internal-content {
+    @apply text-base md:text-lg text-gray-600;
+}
+
+.blog-internal-content h1,
+.blog-internal-content h2,
+.blog-internal-content h3,
+.blog-internal-content h4,
+.blog-internal-content h5,
+.blog-internal-content h6 {
+    @apply text-xl lg:text-2xl xl:text-3xl font-bold text-blue-light;
+}
+
+.blog-internal-content h1,
+.blog-internal-content h2,
+.blog-internal-content h3,
+.blog-internal-content h4,
+.blog-internal-content h5,
+.blog-internal-content h6,
+.blog-internal-content p,
+.blog-internal-content ul,
+.blog-internal-content ol,
+.blog-internal-content img,
+.blog-internal-content iframe {
+    @apply block mb-6 leading-relaxed;
+}
+
+.blog-internal-content ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.blog-internal-content ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.blog-internal-content ol > li::marker,
+.blog-internal-content ul > li::marker {
+    font-weight: bold;
+}
+
+.blog-internal-content ul {
+    list-style-type: disc;
+}
+
+/* contato */
+#contact-form .line {
+    @apply relative block w-full mb-12;
+}
+
+#contact-form .line.active .label {
+    @apply scale-75 -top-6 text-blue-light;
+}
+
+#contact-form .line .label {
+    @apply absolute top-0 left-0 text-gray-400 transition-all duration-300 origin-top-left z-2;
+}
+
+#contact-form .line .input {
+    @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1;
+}
+
+#contact-form .line .input.error {
+    @apply border-red-700;
+}
+
+#contact-form .line .input.select {
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(243 244 246 / var(--tw-bg-opacity)) inset !important;
+}
+
+#contact-form .line label.error {
+    @apply block mt-1 text-xs text-red-700 md:text-sm;
+}
+
+/* ------------------------------------------
+---------------------------------------------
+        ## HOME
+---------------------------------------------
+-------------------------------------------*/
+
+/* banner topo */
+body.home #banner .gradient {
+    background: rgb(239,244,249);
+    background: -moz-linear-gradient(90deg, rgba(239,244,249,1) 0%, rgba(239,244,249,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(239,244,249,1) 0%, rgba(239,244,249,0) 100%);
+    background: linear-gradient(90deg, rgba(239,244,249,1) 0%, rgba(239,244,249,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eff4f9",endColorstr="#eff4f9",GradientType=1);
+}
+
+/* ------------------------------------------
+---------------------------------------------
+        ## SOLUÇÕES INTERNA
+---------------------------------------------
+-------------------------------------------*/
+
+/* number list */
+body.solucoes-interna .number-list li {
+    @apply flex items-start justify-start mb-8 relative pr-10 md:pr-20 gap-4;
+}
+
+body.solucoes-interna .number-list li .number {
+    @apply block w-8 min-w-[2rem] h-8 bg-blue-dark flex items-center justify-center text-center uppercase font-bold;
+}
+
+/* ------------------------------------------
+---------------------------------------------
+        ## WP ADMIN
+---------------------------------------------
+-------------------------------------------*/
+
+html[lang="pt-BR"] {
+	margin-top: 0!important;
+}
+
+body #wpadminbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: auto;
+	right: auto;
+	opacity: .8;
+}
+
+body #wpadminbar:hover {
+	opacity: 1;
+}
+
+@tailwind components;
+@tailwind utilities;
