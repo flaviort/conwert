@@ -131,3 +131,9 @@ function blank_scripts() {
 add_action( 'wp_enqueue_scripts', 'blank_scripts' );
 
 add_filter('wpcf7_autop_or_not', '__return_false');
+
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page();
+    
+}

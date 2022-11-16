@@ -39,45 +39,35 @@
 
 				<div class="flex flex-wrap justify-center gap-4 wow fadeInUp logo-boxes">
 
-					<a href="https://www.blutrafos.com.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/blutrafos.png" alt="Blutrafos">
-					</a>
+					<?php
+						$args = array(
+							'posts_per_page' => -1,
+							'post_type' => 'clients',
+							'orderby' => 'date',
+							'order' => 'DESC',
+							'post_status' => array('publish','future'),
+						);
 
-					<div class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/eqm.png" alt="Grupo EQM">
-					</div>
+						$wp_query = new WP_Query( $args );
+					?>
 
-					<a href="http://www.itagres.com.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/itagres.png" alt="Itagres">
-					</a>
+					<?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
 
-					<a href="https://www.vondervolke.com.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/vdv.png" alt="Von der Volke">
-					</a>
+						<?php $link = get_field('link'); if( $link ): ?>
+							
+							<a href="<?php the_field('link'); ?>" target="_blank" class="logo">
+								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'big') ?>" alt="<?php the_title(); ?>">
+							</a>
 
-					<div class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/pioneira.png" alt="Pioneira">
-					</div>
+						<?php else:?>
+							
+							<div class="logo">
+								<img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'big') ?>" alt="<?php the_title(); ?>">
+							</div>
 
-					<a href="http://mm.ind.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/mem.png" alt="M&M - Indústria Alimentícia LTDA">
-					</a>
+						<?php endif; ?>
 
-					<a href="https://fetti.com.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/fetti.png" alt="Fetti">
-					</a>
-
-					<a href="https://www.boniella.com.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/boniella.png" alt="Boniella">
-					</a>
-
-					<a href="https://ferramentariajn.com/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/jn.png" alt="JN Ferramentaria - Excellence for quality">
-					</a>
-
-					<a href="http://www.dray.ind.br/" target="_blank" class="logo">
-						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/clientes/dray.png" alt="Dray - Artigos Esportivos">
-					</a>
+					<?php endwhile; ?>
 
 				</div>
 

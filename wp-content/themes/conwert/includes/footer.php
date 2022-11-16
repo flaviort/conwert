@@ -61,18 +61,16 @@
 					Endereço
 				</p>
 
-				<p class="text-white text-medium">
-					<b>Balneário Camboriú / SC</b><br />
-					Rua 700, 489 Sala 1603, Centro<br />
-					CEP: 88330-620
-				</p>
+				<div class="text-white text-medium">
+					<?php the_field('endereco', 'option'); ?>
+				</div>
 
 				<p class="block mb-2 font-bold text-white uppercase border-b border-white mt-8 md:my-5 text-medium">
 					Fone
 				</p>
 
-				<a href="tel:47996561115" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
-					<strong>+55 47 99656-1115</strong>
+				<a href="tel:<?php  $telefone = get_field('telefone', 'option'); echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" class="text-white transition-opacity duration-300 cursor-pointer text-medium hover:opacity-70">
+					<strong><?php the_field('telefone', 'option'); ?></strong>
 				</a>
 
 			</div>
@@ -85,35 +83,45 @@
 
 				<ul class="flex gap-x-2">
 
-					<li>
-						<a href="https://api.whatsapp.com/send?phone=5547996561115" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
-						</a>
-					</li>
+					<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
+						<li>
+							<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
 					
-					<li>
-						<a href="https://www.facebook.com/Conwert-Gest%C3%A3o-Empresarial-100347276020103" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/facebook.svg" alt="Facebook" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
-						</a>
-					</li>
+					<?php $facebook = get_field('facebook', 'option'); if( $facebook ): ?>
+						<li>
+							<a href="<?php the_field('facebook', 'option'); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/facebook.svg" alt="Facebook" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
 
-					<li>
-						<a href="https://www.instagram.com/conwert.gestao/" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/instagram.svg" alt="Instagram" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
-						</a>
-					</li>
+					<?php $instagram = get_field('instagram', 'option'); if( $instagram ): ?>
+						<li>
+							<a href="<?php the_field('instagram', 'option'); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/instagram.svg" alt="Instagram" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
 
-					<li>
-						<a href="https://www.linkedin.com/company/conwert-gest%C3%A3o-empresarial/" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/linkedin.svg" alt="Linkedin" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
-						</a>
-					</li>
+					<?php $linkedin = get_field('linkedin', 'option'); if( $linkedin ): ?>
+						<li>
+							<a href="<?php the_field('linkedin', 'option'); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/linkedin.svg" alt="Linkedin" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
 
-					<li>
-						<a href="https://www.youtube.com/channel/UCln1EJO855OPfw--_EGgamg" target="_blank" class="flex items-center justify-center w-9 h-9 group">
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/youtube.svg" alt="Youtube" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
-						</a>
-					</li>
+					<?php $youtube = get_field('youtube', 'option'); if( $youtube ): ?>
+						<li>
+							<a href="<?php the_field('youtube', 'option'); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/youtube.svg" alt="Youtube" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
 
 				</ul>
 

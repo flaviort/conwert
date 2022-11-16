@@ -34,7 +34,7 @@
 			<div class="w-full px-4">
 
 				<div class="relative w-full h-0 pb-[70%] sm:pb-[50%] overflow-hidden block wow fadeInUp">
-					<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/sobre-nos.jpg" class="absolute top-0 left-0 w-full h-full object-cover" />
+					<img src="<?php echo get_the_post_thumbnail_url(get_the_ID(),'big') ?>" class="absolute top-0 left-0 w-full h-full object-cover" />
 				</div>
 
 				<h2 class="font-bold text-blue-dark uppercase text-bigger block pt-6 sm:pt-10 md:pt-16 wow fadeInUp">
@@ -42,11 +42,9 @@
 					<span class="text-blue-light">desafios em valor!</span>
 				</h2>
 
-				<p class="text-medium block mt-4 sm:mt-6 md:mt-10 lg:mt-16 mb-6 sm:mb-8 md:mb-10 text-blue-dark wow fadeIn">
-					Somos um time especializado em enfrentar os desafios empresariais brasileiros, com centenas de projetos bem-sucedidos e mais de 15 anos de experiência.<br /><br />
-
-					Buscamos incansavelmente medidas de gestão que propiciem a ascensão de empresas nos seus momentos mais adversos.
-				</p>
+				<div class="desc text-medium block mt-4 sm:mt-6 md:mt-10 lg:mt-16 mb-6 sm:mb-8 md:mb-10 text-blue-dark wow fadeIn">
+					<?php echo the_content(); ?>
+				</div>
 
 				<a href="<?=get_site_url()?>/time" class="inline-block px-6 py-3 font-semibold text-blue-dark uppercase transition-all duration-300 bg-transparent border border-blue-dark sm:px-8 sm:py-4 text-medium hover:bg-blue-dark hover:text-white wow fadeInUp">
 					Conheça nosso time
