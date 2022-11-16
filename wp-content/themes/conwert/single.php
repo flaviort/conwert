@@ -57,8 +57,12 @@
 
 						<div class="w-full px-4 md:w-1/2 md:text-right md:mt-0 mt-4">
 
-							<p class="category inline-block align-middle px-5 py-2 border border-blue-dark text-blue-dark md:mr-0 mr-2 md:ml-2 mb-2 text-sm">
-								<?php foreach((get_the_category()) as $category){ echo $category->name; } ?>
+							<p class="category">
+								<?php foreach((get_the_category()) as $category){ ?>
+									<span class="inline-block align-middle px-3 sm:px-5 py-1 sm:py-2 border border-blue-light text-blue-light md:mr-0 mr-2 md:ml-2 mb-2 text-sm">
+										<?php echo $category->name; ?>
+									</span>
+								<?php } ?>
 							</p>
 
 						</div>

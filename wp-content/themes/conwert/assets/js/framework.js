@@ -61,29 +61,29 @@ function replaceSvg() {
 	});
 };
 
-// smooth scroll
-$(".sliding-link").click(function(e) {
-	e.preventDefault();
-	var aid = $(this).attr("href");
-	$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
-});
-
-// correct label click
-$('label').click(function(e){
-	e.stopImmediatePropagation();
-});
-
-// fs menu
-$('#open-fs').click(function(){
-	$('body').addClass('menu-open');
-});
-
-$('#close-fs, #fs-menu li a').click(function(){
-	$('body').removeClass('menu-open');
-});
-
 // doc ready functions
 $(document).ready(function() {
+
+	// smooth scroll
+	$(".sliding-link").click(function(e) {
+		e.preventDefault();
+		var aid = $(this).attr("href");
+		$('html,body').animate({scrollTop: $(aid).offset().top},'slow');
+	});
+
+	// correct label click
+	$('label').click(function(e){
+		e.stopImmediatePropagation();
+	});
+
+	// fs menu
+	$('#open-fs').click(function(){
+		$('body').addClass('menu-open');
+	});
+
+	$('#close-fs, #fs-menu li a').click(function(){
+		$('body').removeClass('menu-open');
+	});
 	
 	// replace imgs to svgs
 	replaceSvg()
