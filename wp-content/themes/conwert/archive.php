@@ -1,6 +1,4 @@
 <?php
-	/* Template Name: Blog */
-
 	$template_args = array(
 		'body_class' => 'blog',
 		'css_files' => array(
@@ -46,7 +44,7 @@
 
                         <div class="w-full px-4 md:w-1/2 relative">
 
-                          <div class="category-select text-medium">
+                            <div class="category-select text-medium">
 								<form action="<?php bloginfo('url'); ?>/" method="get">
 									
 									<?php
@@ -71,19 +69,7 @@
             <div class="w-full px-4">
                 <div class="flex flex-wrap -mx-4">
 
-                    <?php
-                        $args = array(
-                            'posts_per_page' => -1,
-                            'post_type' => 'post',
-                            'orderby' => 'date',
-                            'order' => 'DESC',
-                            'post_status' => array('publish','future'),
-                        );
-
-                        $wp_query = new WP_Query( $args );
-                    ?>
-
-                    <?php while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
+                    <?php while ( have_posts() ) : the_post(); ?>
 
                         <div class="w-full px-4 md:w-1/2 lg:w-1/3 wow fadeInUp">
 
@@ -95,42 +81,6 @@
 
                 </div>
             </div>
-
-            <!--div class="w-full px-4 wow fadeIn">
-                <ul class="blog-pagination">
-
-                    <li class="active">
-                        <a href="#">
-                            1
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            2
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            3
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            4
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            5
-                        </a>
-                    </li>
-
-                </ul>
-            </div-->
 
         </div>
     </div>

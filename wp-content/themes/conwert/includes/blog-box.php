@@ -5,7 +5,11 @@
         <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full') ?>" alt="<?php echo get_the_title(); ?>">
 
         <p class="category">
-            <?php foreach((get_the_category()) as $category){ echo $category->name; } ?>
+            <?php foreach((get_the_category()) as $category){ ?>
+                <span>
+                    <?php echo $category->name; ?>
+                </span>
+            <?php } ?>
         </p>
 
     </div>
