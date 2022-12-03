@@ -31,7 +31,15 @@
 <section id="content" class="pb-20 xl:pb-52 md:pb-36 sm:pb-28">
 	<div class="container-wrapper">
 		<div class="flex flex-wrap justify-between -mx-4">
-			<div class="relative block w-full px-4">
+			<div class="w-full px-4">
+
+				<p class="text-big block mb-8 sm:mb-10 md:mb-14 lg:mb-20 text-blue-dark wow fadeIn">
+					<b>Ops!</b> A página que você procura está temporariamente indisponível ou foi removida.
+				</p>
+
+				<a href="<?=get_site_url()?>" class="inline-block px-6 py-3 font-semibold uppercase transition-all duration-300 bg-transparent border border-gray-700 sm:px-8 sm:py-4 text-medium hover:bg-blue-dark hover:text-white hover:border-blue-dark wow fadeInUp">
+					Voltar à página inicial
+				</a>
 				
 			</div>
 		</div>
