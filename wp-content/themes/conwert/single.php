@@ -17,13 +17,11 @@
 <!-- banner -->
 <section id="banner-top" class="relative overflow-hidden pb-8 sm:pb-10 pt-32 sm:pt-36 lg:pb-16 lg:pt-40 xl:pt-52 xl:pb-20 mb-10 sm:mb-16 md:mb-20">
 				
-	<div class="absolute z-0 top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat bg-blue-dark" style="background-image: url(<?php echo get_the_post_thumbnail_url(get_the_ID(),'full') ?>)"></div>
-
-	<div class="absolute z-1 top-0 left-0 w-full h-full bg-blue-dark opacity-70"></div>
+	<div class="absolute z-0 top-0 left-0 w-full h-full bg-cover bg-center bg-no-repeat bg-blue-dark bg-[url('../img/bg-blog.jpg')]"></div>
 
 	<div class="container-wrapper relative z-2">
 		<h1 class="block font-bold uppercase text-white text-bigger wow fadeInUp">
-			Artigos
+			Blog
 		</h1>
 	</div>
 
@@ -37,22 +35,12 @@
 				
 				<div class="block border-b border-gray-300 mb-8 sm:mb-10 pb-6 sm:pb-10 wow fadeIn">
 
-					<p class="date text-medium text-blue-dark uppercase">
-						<?php echo get_the_date('j/m/Y') ?>
-					</p>
-
-					<h1 class="title text-bigger text-blue-light font-bold block mt-3 md:mt-5 md:mb-7 mb-5 leading-tighter">
-						<?php echo the_title(); ?>
-					</h1>
-
 					<div class="flex flex-wrap justify-between align-center -mx-4">
-
+						
 						<div class="w-full px-4 md:w-1/2">
-
-							<p class="author text-blue-dark">
-								Autor: <b><?php the_author_meta( 'first_name', 1); ?> <?php the_author_meta( 'last_name', 1); ?></b>
+							<p class="date text-medium text-blue-dark uppercase">
+								<?php echo get_the_date('j/m/Y') ?>
 							</p>
-
 						</div>
 
 						<div class="w-full px-4 md:w-1/2 md:text-right md:mt-0 mt-4">
@@ -68,6 +56,14 @@
 						</div>
 
 					</div>
+
+					<h1 class="title text-bigger text-blue-light font-bold block mt-3 md:mt-5 md:mb-7 mb-5 leading-tighter">
+						<?php echo the_title(); ?>
+					</h1>
+
+					<p class="author text-blue-dark">
+						Autor: <b><?php global $post; $post_id = $post->ID; $author_id = get_post_field('post_author', $post_id); the_author_meta('display_name', $author_id ); ?></b>
+					</p>
 
 				</div>
 

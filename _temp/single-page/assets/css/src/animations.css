@@ -1,0 +1,5 @@
+.wow {
+    visibility: hidden;
+    animation-duration: 2s;
+    will-change: transform, opacity;
+}

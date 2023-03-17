@@ -19,7 +19,7 @@
 
     <div class="container-wrapper relative z-2">
         <h1 class="block font-bold uppercase text-white text-bigger wow fadeInUp">
-            Artigos | <?php single_cat_title(''); ?>
+            Blog | <?php single_cat_title(''); ?>
         </h1>
     </div>
 

@@ -1,18 +1,16 @@
 <a href="<?php echo get_permalink() ?>" class="blog-box">
     
     <div class="image">
-        
         <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'full') ?>" alt="<?php echo get_the_title(); ?>">
-
-        <p class="category">
-            <?php foreach((get_the_category()) as $category){ ?>
-                <span>
-                    <?php echo $category->name; ?>
-                </span>
-            <?php } ?>
-        </p>
-
     </div>
+
+    <p class="category">
+        <?php foreach((get_the_category()) as $category){ ?>
+            <span>
+                <?php echo $category->name; ?>
+            </span>
+        <?php } ?>
+    </p>
 
     <p class="date">
         <?php echo get_the_date('j/m/Y') ?>

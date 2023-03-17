@@ -124,16 +124,16 @@ body.menu-open #fs-menu nav.menu li {
     @apply absolute top-0 left-0 w-full h-full object-cover;
 }
 
-.blog-box .image .category {
-    @apply absolute right-1 bottom-1 z-2;
-}
-
-.blog-box .image .category span {
-    @apply inline-block py-1 px-2 text-xs leading-normal bg-white text-blue-dark
+.blog-box .category {
+    @apply block text-blue-medium mt-4 mb-1;
 }
 
 .blog-box .date {
-    @apply block mt-4;
+    @apply block mb-2;
+}
+
+.blog-box .date span {
+    @apply inline-block align-middle mr-2;
 }
 
 .blog-box .title {

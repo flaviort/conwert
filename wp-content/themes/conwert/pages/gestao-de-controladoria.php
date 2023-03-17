@@ -45,7 +45,7 @@
 				</div>
 
 				<div class="absolute -top-10 -left-6 hidden w-32 h-32 max-w-full md:block bg-blue-dark z-1 wow fadeInUp"></div>
-				<div class="absolute -bottom-8 right-20 hidden w-32 max-w-full bg-white h-52 md:block z-2 wow fadeInUp"></div>
+				<div class="absolute -bottom-8 right-10 hidden w-20 max-w-full bg-blue-medium h-20 md:block z-4 wow fadeInUp"></div>
 
 			</div>
 

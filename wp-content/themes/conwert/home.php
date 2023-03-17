@@ -21,7 +21,7 @@
 
     <div class="container-wrapper relative z-2">
         <h1 class="block font-bold uppercase text-white text-bigger wow fadeInUp">
-            Artigos
+            Blog
         </h1>
     </div>
 

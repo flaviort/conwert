@@ -37,7 +37,7 @@
 					Atendemos empresas de diversos setores e segmentos, com foco na <b>personalização da solução.</b>
 				</p>
 
-				<div class="flex flex-wrap justify-center gap-4 wow fadeInUp logo-boxes">
+				<div class="flex flex-wrap justify-start gap-4 wow fadeInUp logo-boxes">
 
 					<?php
 						$args = array(
@@ -73,7 +73,7 @@
 
 				<div class="block lg:mt-20 lg:pt-20 md:mt-14 md:pt-14 sm:mt-12 sm:pt-10 mt-10 pt-8 border-t border-blue-light wow fadeIn">
 
-					<p class="text-medium block mb-4 sm:mb-6 md:mb-10">
+					<p class="text-medium text-blue-dark block mb-4 sm:mb-6 md:mb-10">
 						Esta buscando mais <b>gerar mais valor, desempenho e competitividade</b> para sua empresa? Entre em contato conosco!
 					</p>
 

@@ -56,6 +56,7 @@
 				</p>
 			</li>
 
+			<!--
 			<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
 				<li>
 					<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
@@ -63,6 +64,7 @@
 					</a>
 				</li>
 			<?php endif; ?>
+			-->
 			
 			<?php $facebook = get_field('facebook', 'option'); if( $facebook ): ?>
 				<li>
@@ -194,7 +196,7 @@
 			Nossos clientes
 		</p>
 
-		<div class="flex flex-wrap justify-center gap-4 wow fadeInUp logo-boxes">
+		<div class="flex flex-wrap justify-start gap-4 wow fadeInUp logo-boxes">
 
 			<?php
 				$args = array(

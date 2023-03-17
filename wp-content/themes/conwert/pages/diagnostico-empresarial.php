@@ -45,7 +45,7 @@
 				</div>
 
 				<div class="absolute -top-10 -left-6 hidden w-32 h-32 max-w-full md:block bg-blue-dark z-1 wow fadeInUp"></div>
-				<div class="absolute -bottom-8 right-20 hidden w-32 max-w-full bg-white h-52 md:block z-2 wow fadeInUp"></div>
+				<div class="absolute -bottom-8 right-10 hidden w-20 max-w-full bg-blue-medium h-20 md:block z-4 wow fadeInUp"></div>
 
 			</div>
 
@@ -73,11 +73,6 @@
 				<div class="absolute top-0 right-4 w-[200%] h-full z-0 bg-blue-medium"></div>
 
 				<div class="relative z-2 pt-12 sm:pt-14 lg:pt-20 pb-8 sm:pb-12 lg:pb-16 text-white">
-
-					<p class="text-big uppercase block mb-10">
-						<b>No Diagnóstico Empresarial...</b>
-					</p>
-
 					<div class="flex flex-wrap justify-between -mx-4 text-medium">
 						
 						<div class="relative w-full px-4 md:w-1/2">

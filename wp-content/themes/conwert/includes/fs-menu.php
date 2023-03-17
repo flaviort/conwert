@@ -29,24 +29,18 @@
 				</li>
 
 				<li class="delay-[.5s]">
-					<a href="<?=get_site_url()?>/time">
-						Time
-					</a>
-				</li>
-
-				<li class="delay-[.6s]">
 					<a href="<?=get_site_url()?>/clientes">
 						Clientes
 					</a>
 				</li>
 
-				<li class="delay-[.7s]">
+				<li class="delay-[.6s]">
 					<a href="<?=get_site_url()?>/blog">
 						Blog
 					</a>
 				</li>
 
-				<li class="delay-[.8s]">
+				<li class="delay-[.7s]">
 					<a href="<?=get_site_url()?>/contato">
 						Contato
 					</a>

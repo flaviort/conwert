@@ -25,12 +25,6 @@
                     </li>
 
                     <li>
-                        <a href="<?=get_site_url()?>/time" class="hvr-underline-from-left">
-                            Time
-                        </a>
-                    </li>
-
-                    <li>
                         <a href="<?=get_site_url()?>/clientes" class="hvr-underline-from-left">
                             Clientes
                         </a>

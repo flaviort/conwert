@@ -29,3 +29,9 @@
 		<?php include('wp-content/themes/conwert/includes/top-menu.php'); ?>
 		<?php include('wp-content/themes/conwert/includes/fs-menu.php'); ?>
 		
+		<!-- floating whatsapp -->
+		<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
+			<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="fixed z-[10] bottom-3 right-3 w-16 h-16 bg-blue-medium p-2 flex items-center justify-center rounded-[50%] border border-white transition-all duration-300 group hover:border-blue-medium hover:bg-white">
+				<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:text-blue-medium transition-colors duration-300">
+			</a>
+		<?php endif; ?>

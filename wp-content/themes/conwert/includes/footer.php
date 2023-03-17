@@ -82,7 +82,8 @@
 				</p>
 
 				<ul class="flex gap-x-2">
-
+					
+					<!--
 					<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
 						<li>
 							<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
@@ -90,6 +91,7 @@
 							</a>
 						</li>
 					<?php endif; ?>
+					-->
 					
 					<?php $facebook = get_field('facebook', 'option'); if( $facebook ): ?>
 						<li>
@@ -152,12 +154,6 @@
 				</li>
 
 				<li class="sm:my-0 my-1 block">
-					<a href="<?=get_site_url()?>/time" class="hover:opacity-70 transition-opacity duration-300">
-						Time
-					</a>
-				</li>
-
-				<li class="sm:my-0 my-1 block">
 					<a href="<?=get_site_url()?>/clientes" class="hover:opacity-70 transition-opacity duration-300">
 						Clientes
 					</a>
@@ -178,7 +174,7 @@
 			</ul>
 
 			<p>
-				Copyright @<?php echo date("Y"); ?>
+				Copyright @<?php echo date("Y"); ?><span class="inline-block align-middle px-3 sm:px-5">|</span><a href="https://paandadesign.com.br" target="_blank" class="inline-block align-middle transition-colors duration-300 hover:text-blue-medium"><img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/logo-paanda.svg" alt="Paanda Design" class="w-auto h-[1.5rem] svg"></a>
 			</p>
 
 		</div>
