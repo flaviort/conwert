@@ -48,7 +48,7 @@
 			</div>
 		</div>
 
-		<ul class="absolute z-20 items-center justify-start hidden w-full md:flex bottom-5 left-4 gap-x-4">
+		<!--ul class="absolute z-20 items-center justify-start hidden w-full md:flex bottom-5 left-4 gap-x-4">
 
 			<li>
 				<p class="inline-block pl-4 font-bold uppercase text-medium text-blue-dark">
@@ -56,7 +56,6 @@
 				</p>
 			</li>
 
-			<!--
 			<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
 				<li>
 					<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
@@ -64,7 +63,6 @@
 					</a>
 				</li>
 			<?php endif; ?>
-			-->
 			
 			<?php $facebook = get_field('facebook', 'option'); if( $facebook ): ?>
 				<li>
@@ -106,7 +104,7 @@
 				</li>
 			<?php endif; ?>
 
-		</ul>
+		</ul-->
 
 	</div>
 </section>

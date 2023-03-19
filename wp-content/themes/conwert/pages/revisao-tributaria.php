@@ -65,7 +65,7 @@
 						
 						<div class="w-full px-4 md:w-1/2 mb-6 sm:mb-8 md:mb-0">
 
-							<h2 class="block font-bold uppercase text-blue-dark text-bigger wow fadeInUp mb-5 sm:mb-6 md:mb-8 lg:mb-10">
+							<h2 class="block font-bold uppercase text-blue-dark text-big-2 wow fadeInUp mb-5 sm:mb-6 md:mb-8 lg:mb-10">
 								O Complexo Sistema Tributário Brasileiro
 							</h2>
 					
@@ -171,7 +171,7 @@
 
 							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/tributaria-03.jpg" alt="Regime de não cumulatividade do PIS / CONFINS" class="block lg:hidden w-full wow fadeInUp">
 
-							<h2 class="block font-bold uppercase text-bigger wow fadeInUp my-5 sm:my-6 md:my-8 lg:mt-0 lg:mb-10">
+							<h2 class="block font-bold uppercase text-big-2 wow fadeInUp my-5 sm:my-6 md:my-8 lg:mt-0 lg:mb-10">
 								Regime de não cumulatividade do PIS / CONFINS
 							</h2>
 
@@ -210,7 +210,7 @@
 					<div class="flex flex-wrap justify-between -mx-4 pb-6 sm:pb-10 md:pb-14 xl:pb-20">
 						<div class="w-full px-4">
 
-							<h2 class="block font-bold uppercase text-bigger md:text-center md:mx-auto wow text-blue-dark fadeInUp">
+							<h2 class="block font-bold uppercase text-big-2 md:text-center md:mx-auto wow text-blue-dark fadeInUp">
 								Revisão Tributária Conwert
 							</h2>
 
