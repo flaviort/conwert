@@ -112,6 +112,7 @@ function blank_scripts() {
 	wp_style_add_data( 'conwert-style', 'rtl', 'replace' );
 	wp_enqueue_script( 'framework', get_template_directory_uri() . '/assets/js/framework.js', array(), true );
 	wp_register_script( 'contato', get_template_directory_uri() . '/assets/js/contato.js', array('jquery'), true );
+	wp_register_script( 'revisao-tributaria', get_template_directory_uri() . '/assets/js/revisao-tributaria.js', array('jquery'), true );
 
 	// homepage
 	if ( is_front_page() ) {
@@ -123,8 +124,14 @@ function blank_scripts() {
         wp_enqueue_script( 'blog' );
     }
 
+	// contato
 	if ( is_page_template( 'pages/contato.php' ) ) {
         wp_enqueue_script( 'contato' );
+    }
+
+	// revisao tributaria
+	if ( is_page_template( 'pages/revisao-tributaria.php' ) ) {
+        wp_enqueue_script( 'revisao-tributaria' );
     }
 }
 

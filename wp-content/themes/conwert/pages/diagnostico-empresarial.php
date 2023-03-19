@@ -78,7 +78,7 @@
 						<div class="relative w-full px-4 md:w-1/2">
 
 							<p class="block mb-8 sm:mb-10 pr-10">
-								No Diagnóstico Empresarial, identificamos todas as causas que originam os problemas da empresa, bem como, as suas potencialidade de geração de valor, que deverão ser maximizadas para a mais célere recuperação do seu desempenho.<br /><br />
+								No Diagnóstico Empresarial, identificamos todas as causas que originam os problemas da empresa, bem como, as suas potencialidades de geração de valor, que deverão ser maximizadas para a mais célere recuperação do seu desempenho.<br /><br />
 
 								Com base nas informações coletadas, projetaremos cenários futuros, elencando as medidas emergenciais para  encontrar a melhor e mais segura estratégia de reestruturação do negócio.
 							</p>

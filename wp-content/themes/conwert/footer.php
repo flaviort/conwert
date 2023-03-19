@@ -1,6 +1,7 @@
-<?php include('wp-content/themes/conwert/includes/footer.php'); ?>
+            <?php include('wp-content/themes/conwert/includes/footer.php'); ?>
 
-<?php wp_footer(); ?>
+            <?php wp_footer(); ?>
 
-</body>
+        </div>
+    </body>
 </html>

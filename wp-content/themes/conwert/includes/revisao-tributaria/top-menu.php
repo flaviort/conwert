@@ -5,41 +5,41 @@
 
         <div class="relative flex items-center justify-between z-2">
 
-            <a href="<?=get_site_url()?>" class="group max-w-[200px] 2xl:max-w-[250px] inline-block -translate-y-1">
-                <img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/logo.svg" alt="Conwert" class="max-w-full transition-opacity duration-300 svg group-hover:opacity-70 !h-auto">
+            <a href="<?=get_site_url()?>/revisao-tributaria" class="group max-w-[200px] 2xl:max-w-[250px] inline-block -translate-y-1">
+                <img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/logo-revisao.svg" alt="Conwert - Revisão Tributária" class="max-w-full transition-opacity duration-300 svg group-hover:opacity-70 !h-auto">
             </a>
 
             <div class="flex items-center justify-end gap-x-4 2xl:gap-x-8">
 
                 <nav class="hidden xl:flex items-center">
-                    <ul class="flex items-center gap-5 font-semibold uppercase xl:gap-10 text-base justify-evenly">
+                    <ul class="flex items-center gap-5 font-semibold uppercase 2xl:gap-10 text-base justify-evenly">
                         
                         <li>
-                            <a href="<?=get_site_url()?>/sobre-nos" class="hvr-underline-from-left">
-                                Sobre nós
+                            <a href="#sistema-tributario" class="sliding-link hvr-underline-from-left">
+                                Sistema Tributário
                             </a>
                         </li>
 
                         <li>
-                            <a href="<?=get_site_url()?>/solucoes" class="hvr-underline-from-left">
-                                Soluções
+                            <a href="#pis-confins" class="sliding-link hvr-underline-from-left">
+                                PIS / CONFINS
                             </a>
                         </li>
 
                         <li>
-                            <a href="<?=get_site_url()?>/clientes" class="hvr-underline-from-left">
+                            <a href="#revisao-tributaria" class="sliding-link hvr-underline-from-left">
+                                Revisão Tributária
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#clientes" class="sliding-link hvr-underline-from-left">
                                 Clientes
                             </a>
                         </li>
 
                         <li>
-                            <a href="<?=get_site_url()?>/blog" class="hvr-underline-from-left">
-                                Blog
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="<?=get_site_url()?>/contato" class="hvr-underline-from-left">
+                            <a href="#contato" class="sliding-link hvr-underline-from-left">
                                 Contato
                             </a>
                         </li>
@@ -96,6 +96,7 @@
                 </button>
 
             </div>
+
         </div>
     </div>
 </section>

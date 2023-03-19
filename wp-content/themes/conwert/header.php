@@ -26,12 +26,59 @@
 		</a>
 
 		<!-- menus -->
-		<?php include('wp-content/themes/conwert/includes/top-menu.php'); ?>
-		<?php include('wp-content/themes/conwert/includes/fs-menu.php'); ?>
-		
-		<!-- floating whatsapp -->
-		<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
-			<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="fixed z-[10] bottom-3 right-3 w-16 h-16 bg-blue-medium p-2 flex items-center justify-center rounded-[50%] border border-white transition-all duration-300 group hover:border-blue-medium hover:bg-white">
-				<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:text-blue-medium transition-colors duration-300">
-			</a>
-		<?php endif; ?>
+		<?php if ( is_page('revisao-tributaria') ) { ?>
+
+			<!-- change websites -->
+			<section class="bg-gray-100 border-b border-gray-300">
+				<div class="relative container-wrapper">
+					<div class="-mx-2 flex items-center justify-start font-semibold uppercase text-sm md:text-base leading-normal">
+						
+						<a href="<?=get_site_url()?>" class="block px-4 md:px-8 py-3 md:py-4 duration-300 hover:bg-gray-200">
+							Gestão Empresarial
+						</a>
+
+						<a href="<?=get_site_url()?>/revisao-tributaria" class="block px-4 md:px-8 py-3 md:py-4 duration-300 hover:bg-gray-200 !bg-blue-light !text-white">
+							Revisão Tributária
+						</a>
+
+					</div>
+				</div>
+			</section>
+
+			<div class="relative">
+
+				<?php include('wp-content/themes/conwert/includes/revisao-tributaria/top-menu.php'); ?>
+				<?php include('wp-content/themes/conwert/includes/revisao-tributaria/fs-menu.php'); ?>
+
+		<?php } else { ?>
+			
+			<!-- change websites -->
+			<!--section class="bg-gray-100 border-b border-gray-300">
+				<div class="relative container-wrapper">
+					<div class="-mx-2 flex items-center justify-start font-semibold uppercase text-sm md:text-base leading-normal">
+						
+						<a href="<?=get_site_url()?>" class="block px-4 md:px-8 py-3 md:py-4 duration-300 hover:bg-gray-200 !bg-blue-light !text-white">
+							Gestão Empresarial
+						</a>
+
+						<a href="<?=get_site_url()?>/revisao-tributaria" class="block px-4 md:px-8 py-3 md:py-4 duration-300 hover:bg-gray-200">
+							Revisão Tributária
+						</a>
+
+					</div>
+				</div>
+			</section-->
+			
+			<div class="relative">
+
+				<?php include('wp-content/themes/conwert/includes/top-menu.php'); ?>
+				<?php include('wp-content/themes/conwert/includes/fs-menu.php'); ?>
+				
+				<!-- floating whatsapp -->
+				<?php $telefone = get_field('telefone', 'option'); if( $telefone ): ?>
+					<a href="https://api.whatsapp.com/send?phone=<?php echo preg_replace('/[^a-zA-Z0-9]+/', '', $telefone); ?>" target="_blank" class="fixed z-[10] bottom-3 right-3 w-16 h-16 bg-blue-medium p-2 flex items-center justify-center rounded-[50%] border border-white transition-all duration-300 group hover:border-blue-medium hover:bg-white">
+						<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/whatsapp.svg" alt="Whatsapp" class="w-[60%] h-[60%] svg text-white group-hover:text-blue-medium transition-colors duration-300">
+					</a>
+				<?php endif; ?>
+
+		<?php } ?>

@@ -35,7 +35,7 @@ function browsersyncReload(cb) {
 
 // Watch Files & Reload browser after tasks
 function watchTask() {
-    watch("./**/*.php", series(cssTask, browsersyncReload));
+    watch("**/*.php", series(cssTask, browsersyncReload));
     watch(["./assets/css/src/*.css", "./assets/css/main.css"], series(cssTask, browsersyncReload));
 }
 

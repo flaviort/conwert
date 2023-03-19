@@ -125,6 +125,14 @@
 						</li>
 					<?php endif; ?>
 
+					<?php $spotify = get_field('spotify', 'option'); if( $spotify ): ?>
+						<li>
+							<a href="<?php the_field('spotify', 'option'); ?>" target="_blank" class="flex items-center justify-center w-9 h-9 group">
+								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/spotify.svg" alt="Spotify" class="w-[60%] h-[60%] svg text-white group-hover:opacity-70 transition-opacity duration-300">
+							</a>
+						</li>
+					<?php endif; ?>
+
 				</ul>
 
 			</div>

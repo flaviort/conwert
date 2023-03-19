@@ -47,7 +47,7 @@
 			<?php endif; ?>
 
 		</ul>
-		
+
 		<button id="close-fs" class="flex items-center justify-center w-10 h-10 cursor-pointer">
 			<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/close.svg" alt="Fechar" class="block w-full h-full text-blue-dark svg hover:text-blue-light">
 		</button>
@@ -59,37 +59,31 @@
 			<ul>
 
 				<li class="delay-[.2s]">
-					<a href="<?=get_site_url()?>">
-						Início
+					<a href="#sistema-tributario" class="sliding-link">
+						Sistema Tributário
 					</a>
 				</li>
-				
+
 				<li class="delay-[.3s]">
-					<a href="<?=get_site_url()?>/sobre-nos">
-						Sobre nós
+					<a href="#pis-confins" class="sliding-link">
+						PIS / CONFINS
 					</a>
 				</li>
 
 				<li class="delay-[.4s]">
-					<a href="<?=get_site_url()?>/solucoes">
-						Soluções
+					<a href="#revisao-tributaria" class="sliding-link">
+						Revisão Tributária
 					</a>
 				</li>
 
 				<li class="delay-[.5s]">
-					<a href="<?=get_site_url()?>/clientes">
+					<a href="#clientes" class="sliding-link">
 						Clientes
 					</a>
 				</li>
 
 				<li class="delay-[.6s]">
-					<a href="<?=get_site_url()?>/blog">
-						Blog
-					</a>
-				</li>
-
-				<li class="delay-[.7s]">
-					<a href="<?=get_site_url()?>/contato">
+					<a href="#contato" class="sliding-link">
 						Contato
 					</a>
 				</li>

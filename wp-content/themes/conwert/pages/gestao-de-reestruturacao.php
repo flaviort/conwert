@@ -54,7 +54,7 @@
 				<p class="text-medium">
 					Reestruturar o negócio das empresas implica na transformação do momento em que as mesmas se encontram. Significa implementar uma série de medidas contundentes que possam repercutir na melhoria do cenário. É um processo de reformulação para a superação das dificuldades! Recuperar-se e revitalizar-se são as palavras-chave para quem passa por esse momento.<br /><br />
 
-					Neste processo, os objetivos principais da Conwert envolvem a restauração do equilíbrio financeiro, a volta da competitividade e a maior geração de valor. Com uma equipe altamente capacitada, experiente e multicisciplinar, lideramos todos os processos identificados, agindo com transparência e responsabilidade.
+					Neste processo, os objetivos principais da Conwert envolvem a restauração do equilíbrio financeiro, a volta da competitividade e a maior geração de valor. Com uma equipe altamente capacitada, experiente e multidisciplinar, lideramos todos os processos identificados, agindo com transparência e responsabilidade.
 				</p>
 
 			</div>

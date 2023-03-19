@@ -55,11 +55,11 @@
 
 								<div class="relative block mb-5 pb-4 sm:pb-5 border-b border-gray-300">
 
-									<p class="text-xl font-bold block mb-1 text-blue-dark uppercase pr-12">
+									<p class="text-big font-bold block mb-1 text-blue-dark uppercase pr-12">
 										<?php the_sub_field('partner_name'); ?>
 									</p>
 
-									<a href="mailto:<?php the_sub_field('partner_email'); ?>" target="_blank" class="text-base text-blue-light hover:underline pr-12 inline-block w-full break-all">
+									<a href="mailto:<?php the_sub_field('partner_email'); ?>" target="_blank" class="text-medium text-blue-light hover:underline pr-12 inline-block w-full break-all">
 										<?php the_sub_field('partner_email'); ?>
 									</a>
 
@@ -69,7 +69,7 @@
 
 								</div>
 
-								<div class="text-base text-blue-dark">
+								<div class="text-medium text-blue-dark">
 									<?php the_sub_field('partner_desc'); ?>
 								</div>
 
@@ -98,11 +98,11 @@
 
 								<div class="relative block mb-5 pb-4 sm:pb-5 border-b border-gray-300">
 
-									<p class="text-xl font-bold block mb-1 text-blue-dark uppercase pr-12">
+									<p class="text-big font-bold block mb-1 text-blue-dark uppercase pr-12">
 										<?php the_sub_field('coordinator_name'); ?>
 									</p>
 
-									<a href="mailto:<?php the_sub_field('coordinator_email'); ?>" target="_blank" class="text-base text-blue-light hover:underline pr-12 inline-block w-full break-all">
+									<a href="mailto:<?php the_sub_field('coordinator_email'); ?>" target="_blank" class="text-medium text-blue-light hover:underline pr-12 inline-block w-full break-all">
 										<?php the_sub_field('coordinator_email'); ?>
 									</a>
 
@@ -112,7 +112,7 @@
 
 								</div>
 
-								<div class="text-base text-blue-dark">
+								<div class="text-medium text-blue-dark">
 									<?php the_sub_field('coordinator_desc'); ?>
 								</div>
 
@@ -139,11 +139,11 @@
 									<img src="<?php the_sub_field('manager_photo'); ?>" alt="<?php the_sub_field('manager_name'); ?>" class="absolute top-0 left-0 w-full h-full object-cover object-top">
 								</div>
 
-								<p class="text-xl font-bold block mb-1 text-blue-dark uppercase pr-12">
+								<p class="text-big font-bold block mb-1 text-blue-dark uppercase pr-12">
 									<?php the_sub_field('manager_name'); ?>
 								</p>
 
-								<a href="mailto:<?php the_sub_field('manager_email'); ?>" target="_blank" class="text-base text-blue-light hover:underline pr-12 inline-block w-full break-all">
+								<a href="mailto:<?php the_sub_field('manager_email'); ?>" target="_blank" class="text-medium text-blue-light hover:underline pr-12 inline-block w-full break-all">
 									<?php the_sub_field('manager_email'); ?>
 								</a>
 

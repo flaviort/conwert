@@ -222,27 +222,27 @@ body.menu-open #fs-menu nav.menu li {
 }
 
 /* contato */
-#contact-form .line {
+form .line {
     @apply relative block w-full mb-12;
 }
 
-#contact-form .line.active .label {
+form .line.active .label {
     @apply scale-75 -top-6 text-blue-light;
 }
 
-#contact-form .line .label {
+form .line .label {
     @apply absolute top-0 left-0 text-gray-400 transition-all duration-300 origin-top-left z-2;
 }
 
-#contact-form .line .input {
+form .line .input {
     @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1;
 }
 
-#contact-form .line .input.error {
+form .line .input.error {
     @apply border-red-700;
 }
 
-#contact-form .line .input.select {
+form .line .input.select {
     text-indent: 1px;
     text-overflow: '';
 }
@@ -254,7 +254,7 @@ input:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px rgb(243 244 246 / var(--tw-bg-opacity)) inset !important;
 }
 
-#contact-form .line label.error {
+form .line label.error {
     @apply block mt-1 text-xs text-red-700 md:text-sm;
 }
 
