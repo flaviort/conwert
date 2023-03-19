@@ -17,7 +17,7 @@
 			<!-- banner -->
 			<section id="banner" class="relative overflow-hidden block bg-[#1a4f9e] pt-28 sm:pt-36 md:pt-44 lg:pt-52">
 
-				<div class="absolute z-0 bg-blue-dark bottom-0 right-0 h-[70%] md:h-[30%] w-[40%] md:w-[20%] wow fadeInUp"></div>
+				<div class="absolute z-0 bg-blue-dark bottom-0 right-0 h-[60%] sm:h-[70%] md:h-[30%] w-[70%] sm:w-[40%] md:w-[20%] wow fadeInUp"></div>
 
 				<div class="container-wrapper relative z-2">
 					<div class="flex flex-wrap flex-row-reverse justify-between -mx-4">
@@ -33,7 +33,7 @@
 								<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/tributaria-01.jpg" alt="Revisão Tributária Conwert" class="absolute z-0 top-0 left-0 w-full h-full object-cover duration-300 opacity-70 group-hover:opacity-50">
 							</a>
 
-							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/tributaria-00.jpg" alt="" class="block md:hidden xl:block absolute z-0 -right-32 md:right-[10px] 2xl:-right-10 md:-top-10 -bottom-32 md:bottom-auto w-[50%] md:w-[60%] object-cover h-[80%] wow fadeInRight">
+							<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/img/tributaria-00.jpg" alt="" class="hidden sm:block md:hidden xl:block absolute z-0 -right-32 md:right-[10px] 2xl:-right-10 md:-top-10 -bottom-32 md:bottom-auto w-[50%] md:w-[60%] object-cover h-[80%] wow fadeInRight">
 
 						</div>
 

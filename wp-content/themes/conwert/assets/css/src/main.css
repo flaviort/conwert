@@ -112,7 +112,7 @@ body.menu-open #fs-menu nav.menu li {
 /* boxes clientes */
 .logo-boxes .logo {
     filter: saturate(0);
-    @apply flex items-center justify-center p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
+    @apply flex items-center justify-center p-4 sm:p-8 transition-all duration-300 border border-gray-300 opacity-50 mix-blend-darken hover:opacity-100 w-[calc(50%-1rem)] sm:w-[calc(100%/3-1rem)] lg:w-[calc(100%/5-1rem)];
 }
 
 /* box blog */
@@ -239,7 +239,7 @@ form .line .label {
 }
 
 form .line .input {
-    @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1;
+    @apply relative block w-full py-1 bg-transparent border-b border-gray-400 z-1 rounded-none;
 }
 
 form .line .input.error {
