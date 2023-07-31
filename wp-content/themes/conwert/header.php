@@ -60,7 +60,7 @@
 		<?php } else { ?>
 			
 			<!-- change websites -->
-			<!--section class="bg-gray-100 border-b border-gray-300">
+			<section class="bg-gray-100 border-b border-gray-300">
 				<div class="relative container-wrapper">
 					<div class="-mx-2 flex items-center justify-between sm:justify-start font-semibold uppercase text-xs md:text-sm leading-normal">
 						
@@ -74,7 +74,7 @@
 
 					</div>
 				</div>
-			</section-->
+			</section>
 			
 			<div class="relative">
 

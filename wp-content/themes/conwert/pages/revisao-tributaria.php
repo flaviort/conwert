@@ -24,7 +24,7 @@
 
 						<div class="relative w-full px-4 md:w-1/2 xl:w-[60%]">
 
-							<a href="#" data-fancybox class="flex items-center justify-center relative z-2 overflow-hidden w-full xl:w-[70%] h-96 md:h-full bg-black group wow fadeInUp">
+							<a href="https://www.youtube.com/watch?v=cI7B9zr99YA&ab_channel=ConwertGest%C3%A3oEmpresarial" data-fancybox class="flex items-center justify-center relative z-2 overflow-hidden w-full xl:w-[70%] h-96 md:h-full bg-black group wow fadeInUp">
 
 								<span class="relative z-2 block w-32 md:w-44 h-32 md:h-44 rounded-full border md:border-4 border-white text-white p-10 md:p-14 duration-300 group-hover:scale-125 group-hover:border md:group-hover:p-[4.25rem]">
 									<img src="<?=get_site_url()?>/wp-content/themes/conwert/assets/svg/play.svg" alt="Play" class="svg fill-current w-full h-full translate-x-1">
@@ -47,8 +47,8 @@
 								</span>
 							</h1>
 
-							<a href="#" data-fancybox class="inline-block px-6 py-3 font-semibold text-white uppercase transition-colors duration-300 bg-[#25aae2] sm:px-8 sm:py-4 text-medium hover:bg-white hover:text-blue-light wow fadeInUp">
-								Assista ao vídeo
+							<a href="#sistema-tributario" class="sliding-link inline-block px-6 py-3 font-semibold text-white uppercase transition-colors duration-300 bg-[#25aae2] sm:px-8 sm:py-4 text-medium hover:bg-white hover:text-blue-light wow fadeInUp">
+								Saiba Mais
 							</a>
 
 						</div>
@@ -447,7 +447,7 @@
 						</div>
 
 						<div class="!mb-0 line wow fadeInUp">
-							<button type="submit" id="submit-form" form="contact-form" value="Enviar" class="inline-block px-6 py-3 font-semibold text-blue-dark uppercase transition-colors duration-300 border-blue-dark border sm:px-8 sm:py-4 text-medium hover:bg-blue-dark hover:text-white">
+							<button type="submit" id="submit-form" form="newsletter-form" value="Enviar" class="inline-block px-6 py-3 font-semibold text-blue-dark uppercase transition-colors duration-300 border-blue-dark border sm:px-8 sm:py-4 text-medium hover:bg-blue-dark hover:text-white">
 								Enviar
 							</button>
 						</div>
